@@ -1,0 +1,38 @@
+@import '../../sass/variables.scss';
+
+.Navigation {
+    opacity: 0.85;
+    z-index: 1;
+    transform: rotate(-45deg);
+    height: 80vh;
+    width: 80vh;
+    margin: 0 auto;
+    background-color: $darknesscolor;
+    border-radius: 50%;
+    border: 3px solid $fontcolor;
+    box-shadow: 0px 0px 80px white;
+
+    div.language{
+        transform: rotate(45deg);
+        position: relative;
+        left: -1%;
+        top:-62%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 20vh;
+        height: 20vh;
+        background-color: $fontcolor;
+        border-radius: 50%;
+            p{  
+                display: inline-flex;
+                text-align: center;
+                margin: auto;
+                color: $shadowcolor;
+                font-weight: 700;
+                font-size: $fontlarge;
+            }
+    }
+    
+}

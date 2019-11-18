@@ -1,0 +1,123 @@
+@import '../../sass/variables.scss';
+
+$startrotatepoint: -45deg;
+
+div.NavElem{
+    opacity: 0.9;
+    display: inline-flex;
+    width: 50%;
+    height: 50%;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    background: $shadowcolor;
+    border: 3px solid $fontcolor;
+    box-shadow: 0px 0px 5px white;
+    box-sizing: border-box;
+    p{
+        opacity: 1;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        font-size: $fonthuge;
+    }
+   &:hover{
+    background: $maincolor;
+   }
+    
+    &.AboutMe{
+        border-radius: 100% 0 20% 0;
+        transition: ease-in-out 1s;
+        p{
+            justify-content: center;
+            transform: rotate($startrotatepoint);
+            transition: ease-out 0.5s;
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        &:hover{
+            opacity: 1;
+            transform: translate(-20px, -20px);
+            box-shadow: 5px 5px 15px white;
+            p{
+                transform: rotate(-$startrotatepoint);
+                text-shadow: 0px 0px 2px white;
+                justify-content: center;
+                position: relative;
+                left: 25px;
+                top: 25px;
+            } 
+        }
+    }
+
+
+    &.Skills{
+        border-radius: 0 100% 0 0;
+        transition: ease-in-out 1s;
+        p{
+            justify-content: center;
+            transform: rotate( $startrotatepoint + 90deg);
+            transition: ease-out 0.5s;
+        }
+        &:hover{
+            opacity: 1;
+            transform: translate(25px, -25px);
+            box-shadow: -5px 5px 15px white;
+            p{
+                transform: rotate(-$startrotatepoint) translate(0, 25px);
+                text-shadow: 0px 0px 2px white;
+                justify-content: center;
+            } 
+        }
+    }
+
+
+    &.Contact{
+        border-radius: 0 0 100% 0;
+        transition: ease-in-out 1s;
+        p{
+            justify-content: center;
+            transform: rotate(-$startrotatepoint + 90deg);
+            transition: ease-out 0.5s;
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        &:hover{
+            opacity: 1;
+            transform: translate(20px, 20px);
+            box-shadow: -5px -5px 15px white;
+            p{
+                transform: rotate(-$startrotatepoint);
+                text-shadow: 0px 0px 2px white;
+                justify-content: center;
+                position: relative;
+                left: -25px;
+                top: -25px;
+            } 
+        }
+    }
+
+
+    &.Portfolio{
+        border-radius: 0 0 0 100%;
+        transition: ease-in-out 1s;
+        p{
+            justify-content: center;
+            transform: rotate( $startrotatepoint + 90deg);
+            transition: ease-out 0.5s;
+        }
+        &:hover{
+            opacity: 1;
+            transform: translate(-20px, 20px);
+            box-shadow: 5px -5px 15px white;
+            p{
+                transform: rotate(-$startrotatepoint) translate(0, -25px);
+                text-shadow: 0px 0px 2px white;
+                justify-content: center;
+            } 
+        }
+    }
+}
+
