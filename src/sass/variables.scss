@@ -1,22 +1,27 @@
 // if you want to use paste path -> @import '../../sass/variables.scss'
-
-$maincolor: #2E7980;	// Main Primary color */
+	// Main contrast color */
 $fontcolor: #FFFFFF;
-$contrascolor: #00E9FF;
-$darknesscolor: #1E3436;
-$shadowcolor: #004C53;
 
-$color-complement-0: #D38B4A;	// Main Complement color */
-$color-complement-1: #FFFFFF;
-$color-complement-2: #FF7800;
-$color-complement-3: #594430;
-$color-complement-4: #884000;
+$darknesscolor: #101619;	// Main Primary color */
+$lightcolor: #1C87BB;
+$shadowcolor: #053D59;
+$contrascolor: #49C0FA;
+$maincolor: #026494;
+$shadowcartcolor: rgba(49, 49, 49, 0.6);
+// As RGBa codes */
 
-$fontsmall: 14px;
-$fontmiddle: 18px;
-$fontbig: 24px;
-$fontlarge: 32px;
-$fonthuge: 45px;
+$color-contrast-0: #A57B00;	// Main contrast color */
+$color-contrast-1: #FFBF00;
+$color-contrast-2: #D09C00;
+$color-contrast-3: #785A00;
+$color-contrast-4: #3F3000;
+
+
+$fontsmall: 2em;
+$fontmiddle: 3em;
+$fontbig: 4em;
+$fontlarge: 5em;
+$fonthuge: 8em;
 
 $Montserrat: 'Montserrat', sans-serif;
 $Roboto: 'Roboto Slab', serif;

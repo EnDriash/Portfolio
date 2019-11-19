@@ -1,0 +1,37 @@
+@import '../../sass/variables.scss';
+
+.ContentLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    min-height: 605px;
+    .Frame{
+        position: relative;
+        min-height: 90%;
+        width: 95%;
+        background: $shadowcartcolor;
+        border-radius: 20px;
+        .close{
+            display: block;
+            z-index: 2;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 80px;
+            height: 80px;
+            background: $darknesscolor;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 100%;
+            svg{
+                position: relative;
+                left: 40%;
+                top: 10%;
+                width: 40%;
+                color: $fontcolor;
+            }
+        }
+    }
+}

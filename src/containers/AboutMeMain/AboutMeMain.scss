@@ -1,0 +1,40 @@
+@import '../../sass/variables.scss';
+
+.AboutMe{
+    background-image: url("../../public/images/spacecloud.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .row{
+        height: 100%;
+    }
+    .AboutMeMain {
+        position: relative;
+        padding: 0 4vw;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        .imageCol{
+            flex-direction: column;
+            padding-right: 20px;
+            border-right: 1px solid $fontcolor;
+            
+            .img{
+                padding: 15px;
+                border: 1px solid $fontcolor;
+                height: auto;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .contentCol{
+            padding-left: 20px;
+            p{
+                font-size: $fontmiddle;
+            }
+
+        }
+    }
+}
