@@ -8,12 +8,19 @@
     width: 100vw;
     background: black;
     min-height: 605px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .row{
+        height: 100%;
+    }
     .Frame{
         position: relative;
-        min-height: 90%;
+        max-height: 90vh;
         width: 95%;
         background: $shadowcartcolor;
         border-radius: 20px;
+        overflow: auto;
         .close{
             display: block;
             z-index: 2;
@@ -33,5 +40,18 @@
                 color: $fontcolor;
             }
         }
+    }
+    &.AboutMe{
+        background-image: url("../../public/images/spaceplanets2.jpg");
+    }
+    &.Contact{
+        
+        background-image: url("../../public/images/spacecloud.jpg");
+    }
+    &.Skills{
+        background-image: url("../../public/images/spacenova.jpg");
+    }
+    &.Projects{
+        background-image: url("../../public/images/spaceplanets.jpg");
     }
 }

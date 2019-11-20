@@ -16,9 +16,9 @@ const navigationList = [
         text: 'Skills'
     },
     {
-        name: 'Portfolio',
+        name: 'Projects',
         href: 'link',
-        text: 'Portfolio'
+        text: 'Projects'
     },
     {
         name: 'Contact',

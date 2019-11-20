@@ -1,13 +1,5 @@
 @import '../../sass/variables.scss';
 
-.AboutMe{
-    background-image: url("../../public/images/spacecloud.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    .row{
-        height: 100%;
-    }
     .AboutMeMain {
         position: relative;
         padding: 0 4vw;
@@ -37,4 +29,3 @@
 
         }
     }
-}
