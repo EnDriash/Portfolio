@@ -1,0 +1,29 @@
+@import '../../../sass/variables.scss';
+
+.Frame{
+    position: relative;
+    max-height: 90vh;
+    width: 95%;
+    background: $shadowcartcolor;
+    border-radius: 20px;
+    overflow: auto;
+    .close{
+        display: block;
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        background: $darknesscolor;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 100%;
+        svg{
+            position: relative;
+            left: 40%;
+            top: 10%;
+            width: 40%;
+            color: $fontcolor;
+        }
+    }
+}

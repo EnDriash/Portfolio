@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import personalImg from '../../public/images/personalImg.jpg'
+import personalImg from '../../../public/images/personalImg.jpg'
 import styles from './Projects.scss';
 
 class Projects extends Component {

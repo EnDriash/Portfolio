@@ -1,5 +1,5 @@
 import React from 'react';
-import NavElem from '../../components/NavElem/NavElem';
+import NavElem from '../../../components/NavElem/NavElem';
 import styles from './Navigation.scss';
 
 import Particles from 'react-particles-js';

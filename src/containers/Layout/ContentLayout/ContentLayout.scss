@@ -1,0 +1,30 @@
+@import '../../../sass/variables.scss';
+
+.ContentLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    min-height: 605px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .row{
+        height: 100%;
+    }
+    
+    &.AboutMeContainer{
+        background-image: url("../../../public/images/spaceplanets2.jpg");
+    }
+    &.ContactContainer{
+        background-image: url("../../../public/images/spacecloud.jpg");
+    }
+    &.SkillsContainer{
+        background-image: url("../../../public/images/spacenova.jpg");
+    }
+    &.ProjectsContainer{
+        background-image: url("../../../public/images/spaceplanets.jpg");
+    }
+}

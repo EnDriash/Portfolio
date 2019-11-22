@@ -1,0 +1,24 @@
+@import '../../../sass/variables.scss';
+
+.Skills{
+    width: 100%;
+    
+    h1{
+        margin: 0;
+        opacity: 1;
+        background-color: $fontcolor;
+        color: $shadowcolor;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid wheat;
+    }
+    h2{
+        opacity: 0.9;
+        margin: 0;
+        border: none;
+        box-shadow: inset -1px 0px 10px black;
+        background-color: $fontcolor;
+        color: $shadowcolor;
+        padding: 5px 10px;
+    }
+}

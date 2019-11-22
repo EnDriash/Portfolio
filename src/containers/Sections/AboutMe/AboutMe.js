@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import personalImg from '../../public/images/personalImg.jpg'
-import styles from './AboutMeMain.scss';
+import personalImg from '../../../public/images/personalImg.jpg';
+import styles from './AboutMe.scss';
 
-class AboutMeMain extends Component {
+class AboutMe extends Component {
     
     render() {
         return (
-            <div className="AboutMeMain">
+            <div className="AboutMe">
                 
                 <h1>About Me</h1>
                 <div className="row">
@@ -37,4 +37,4 @@ class AboutMeMain extends Component {
     }
     
 }
-export default AboutMeMain;
+export default AboutMe;

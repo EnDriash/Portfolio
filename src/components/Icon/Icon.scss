@@ -1,0 +1,17 @@
+.Icon{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+    .svg{
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        img{
+            text-align: center;
+            justify-content: center;
+            width: 80px;
+        }
+    }
+}

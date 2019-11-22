@@ -14,7 +14,7 @@ body{
     font-size: $fontsmall;
     font-family: $Montserrat;
   }
-  h1{
+  h1, h2 ,h3, h4, h5, h6{
     color: $fontcolor;
     font-size: $fonthuge;
     font-family: $Roboto;
@@ -22,5 +22,21 @@ body{
     padding-bottom: 2%;
     margin: 1.5% 0;
   }
+  h2{
+    font-size: $fontlarge;
+  }
+  h3{
+    font-size: $fontbig;
+  }
+  h4{
+    font-size: $fontfine;
+  }
+  h5{
+    font-size: $fontmiddle;
+  }
+  h6{
+    font-size: $fontlittle;
+  }
+  
  
 }

@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 
-import styles from './ContentLayout.scss';
+import styles from './Frame.scss';
 
-class ContentLayout extends Component {
-    
+class Frame extends Component {
     render() {
         return (
-            <div className={`ContentLayout ${this.props.name}`} >
-                <div className="Frame">
+            <div className="Frame" >
+                {this.props.close !== "false" ? 
                     <div className="close">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
                             <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 
@@ -16,13 +15,12 @@ class ContentLayout extends Component {
                                 12.28-32.19 0-44.48L242.72 256z">
                             </path>
                         </svg>
-                    </div>
-                    
-                    {this.props.children}
-                </div>
-            </div>
+                    </div> 
+                : null}
+
+                {this.props.children}
+            </div> 
         )
     }
-    
 }
-export default ContentLayout;
+export default Frame;
