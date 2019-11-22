@@ -1,24 +1,41 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.50420f61.chunk.css",
-    "main.js": "/Portfolio/static/js/main.537b098f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.537b098f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.25f10c6e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.61c536f8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.61c536f8.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.06495d49.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.06495d49.js.map",
-    "static/js/2.a22c68ef.chunk.js": "/Portfolio/static/js/2.a22c68ef.chunk.js",
-    "static/js/2.a22c68ef.chunk.js.map": "/Portfolio/static/js/2.a22c68ef.chunk.js.map",
+    "static/js/2.2a8ee247.chunk.js": "/Portfolio/static/js/2.2a8ee247.chunk.js",
+    "static/js/2.2a8ee247.chunk.js.map": "/Portfolio/static/js/2.2a8ee247.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.18e78c716842d23978b7ccedd15f063d.js": "/Portfolio/precache-manifest.18e78c716842d23978b7ccedd15f063d.js",
+    "precache-manifest.9eb1b5078ebfc4e32f252e1abc417916.js": "/Portfolio/precache-manifest.9eb1b5078ebfc4e32f252e1abc417916.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.50420f61.chunk.css.map": "/Portfolio/static/css/main.50420f61.chunk.css.map",
+    "static/css/main.25f10c6e.chunk.css.map": "/Portfolio/static/css/main.25f10c6e.chunk.css.map",
+    "static/media/css3-alt-brands.svg": "/Portfolio/static/media/css3-alt-brands.89160280.svg",
+    "static/media/exit.svg": "/Portfolio/static/media/exit.2c5552a1.svg",
+    "static/media/expressjs-icon.svg": "/Portfolio/static/media/expressjs-icon.2c637fdc.svg",
+    "static/media/gimp.svg": "/Portfolio/static/media/gimp.450d20c4.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.0a3a0978.svg",
+    "static/media/html5-brands.svg": "/Portfolio/static/media/html5-brands.32c9cf4e.svg",
+    "static/media/jira.svg": "/Portfolio/static/media/jira.632f8390.svg",
+    "static/media/js-square-brands.svg": "/Portfolio/static/media/js-square-brands.628a3f24.svg",
+    "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.3f6d12c0.svg",
+    "static/media/mysql.svg": "/Portfolio/static/media/mysql.f8a63ae9.svg",
+    "static/media/node-js.svg": "/Portfolio/static/media/node-js.a35aa1f4.svg",
+    "static/media/nppm.svg": "/Portfolio/static/media/nppm.580b1cc5.svg",
     "static/media/personalImg.jpg": "/Portfolio/static/media/personalImg.c55e872d.jpg",
+    "static/media/photoshop.svg": "/Portfolio/static/media/photoshop.8b49d065.svg",
+    "static/media/react-brands.svg": "/Portfolio/static/media/react-brands.38b2e78f.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.f961bf97.svg",
+    "static/media/sass-brands.svg": "/Portfolio/static/media/sass-brands.f6a740c2.svg",
     "static/media/Navigation.scss": "/Portfolio/static/media/space.0ab2d65d.jpg",
-    "static/media/ContentLayout.scss": "/Portfolio/static/media/spaceplanets2.283c5d40.jpg"
+    "static/media/ContentLayout.scss": "/Portfolio/static/media/spaceplanets2.283c5d40.jpg",
+    "static/media/vscode.svg": "/Portfolio/static/media/vscode.0420c16d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.06495d49.js",
-    "static/js/2.a22c68ef.chunk.js",
-    "static/css/main.50420f61.chunk.css",
-    "static/js/main.537b098f.chunk.js"
+    "static/js/2.2a8ee247.chunk.js",
+    "static/css/main.25f10c6e.chunk.css",
+    "static/js/main.61c536f8.chunk.js"
   ]
 }
