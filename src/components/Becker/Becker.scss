@@ -1,0 +1,53 @@
+.becker{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    .Icon{
+        display: none;
+    }
+    .svg{
+        margin: 0;
+    }
+    &:hover{
+        opacity: 0.8;
+        .Icon{
+            display: flex;
+        }
+    }
+    &.down{
+        bottom: 0;
+        height: 18vh;
+        width: 100%;
+        &:hover{
+            background-image: linear-gradient(rgba(0,0,0,0), black);
+        }
+        .Icon{
+            position: relative;
+            top: 15%;
+            
+        }
+    }
+    &.up{
+        top: 0;
+        height: 13.5vh;
+        width: 100%;
+        &:hover{
+            background-image: linear-gradient( black, rgba(0,0,0,0));
+        }
+        .Icon{
+            position: relative;
+            top: 15%;
+        }
+    }
+    &.left{
+        left: 0;
+        width: 13.5vw;
+        height: 100%;
+    }
+    &.right{
+        right: 0;
+        width: 13.5vw;
+        height: 100%;
+    }
+    
+  }

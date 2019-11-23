@@ -16,15 +16,22 @@
     }
     
     &.AboutMeContainer{
+        position: absolute;
+        transform: translate(-100vw, -100vh);
         background-image: url("../../../public/images/spaceplanets2.jpg");
     }
     &.ContactContainer{
+        position: absolute;
+        transform: translate(100vw, -100vh);
         background-image: url("../../../public/images/spacecloud.jpg");
     }
     &.SkillsContainer{
+        position: absolute;
+        transform: translate(0, -200vh);
         background-image: url("../../../public/images/spacenova.jpg");
     }
     &.ProjectsContainer{
+        position: absolute;
         background-image: url("../../../public/images/spaceplanets.jpg");
     }
 }

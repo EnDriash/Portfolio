@@ -7,13 +7,14 @@ import Icon from '../../../components/Icon/Icon'
 
 function IconsList(props) {
         return (
-            <ul>
+            <div className="IconsList">
                 {props.data.map((elem) => {
                     return (
                         <Icon name={elem.title} svg={elem.svg} />
                     )
                 })}
-            </ul>
+            </div>
+                
         )
     }
     

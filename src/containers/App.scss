@@ -2,13 +2,26 @@
 
 body{
   font-size: 6px;
+  overflow: scroll;
+  transition: ease-in-out 0.5s;
+  &.AboutMeShow{
+    transform: translate(100vw, 0);
+  }
+  &.ContactMeShow{
+    transform: translate(-100vw, 0);
+  }
+  &.SkillsMeShow{
+    transform: translate(0, 100vh);
+  }
+  &.ProjectsMeShow{
+    transform: translate(0, -100vh);
+  }
 }
 ::-webkit-scrollbar {
   display: none;
 }
 
 .App {
-  
   p{
     color: $fontcolor;
     font-size: $fontsmall;
@@ -38,5 +51,4 @@ body{
     font-size: $fontlittle;
   }
   
- 
 }

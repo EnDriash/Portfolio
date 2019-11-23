@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import NavElem from '../../../components/NavElem/NavElem';
 import styles from './Navigation.scss';
 
@@ -32,7 +32,7 @@ const particlesSettings = {
     "fps_limit": 28,
     "particles": {
       "number": {
-        "value": 500,
+        "value": 400,
         "density": {
           "enable": true
         }
@@ -92,23 +92,49 @@ const particlesSettings = {
     }
   }
 
-function Navigation(props) {
+class Navigation extends Component {
+
+  changeViewHandler(nameOfNavElem) {
+
+    const body = document.querySelector('body');
+    console.log("TCL: Navigation -> changeViewHandler -> body", body)
+
+    switch(nameOfNavElem) {
+      case 'AboutMe' :
+          body.classList.add('AboutMeShow');
+        break;
+      case 'Skills' :
+          body.classList.add('SkillsMeShow');
+        break;
+      case 'Projects' :
+          body.classList.add('ProjectsMeShow');
+        break;
+      case 'Contact' :
+          body.classList.add('ContactMeShow');
+        break;
+    }
+  }
+  
+
+  render(){
+
     return (
-        <div className="Navigation">
-          <Particles className="Particles" params={particlesSettings} width="100vw" />
-            <div className="NavigationCircle">
-                {navigationList.map((elem, index) => {
-                    return(
-                        <NavElem className={elem.name} key={index}>
-                            {elem.text}
-                        </NavElem>
-                    )
-                })}
-                <div className="language">
-                    <p><span>PL</span>|<span>EN</span></p>
-                </div>
-            </div>
-        </div>
+      <div className="Navigation">
+        <Particles className="Particles" params={particlesSettings} width="100vw" />
+          <div className="NavigationCircle">
+              {navigationList.map((elem, index) => {
+                  return(
+                      <NavElem click={() => this.changeViewHandler(elem.name)} className={elem.name} key={index}>
+                          {elem.text}
+                      </NavElem>
+                  )
+              })}
+              <div className="language">
+                  <p><span>PL</span>|<span>EN</span></p>
+              </div>
+          </div>
+      </div>
     )
+  }
 }
 export default Navigation;

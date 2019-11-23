@@ -11,12 +11,14 @@ import AboutMe from './Sections/AboutMe/AboutMe';
 import Contact from './Sections/Contact/Contact';
 import Skills from './Sections/Skills/Skills';
 import Projects from './Sections/Projects/Projects';
+import Becker from '../components/Becker/Becker';
+
 
 
 class App extends Component {
 
   render() {
-
+    
     return (
       <div className="App" >
         <Navigation />
@@ -35,16 +37,19 @@ class App extends Component {
 
         <ContentLayout name="Skills">
             <Skills />
+            <Becker name="down"/>
         </ContentLayout>
 
         <ContentLayout name="Projects">
-          <Frame>
+          <Frame close="false">
             <Projects />
           </Frame>
+          <Becker name="up"/>
         </ContentLayout>
       </div>
     )
   }
+  
 }
 
 export default App;

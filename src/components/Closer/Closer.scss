@@ -1,0 +1,23 @@
+@import '../../sass/variables.scss';
+
+.close{
+    display: block;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: $darknesscolor;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 100%;
+    svg{
+        background: none;;
+        position: relative;
+        left: 40%;
+        top: 10%;
+        width: 40%;
+        color: $fontcolor;
+        
+    }
+}

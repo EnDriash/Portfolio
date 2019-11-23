@@ -154,7 +154,6 @@ class Skills extends Component {
                             <LevelContainer data={data.backend.basics}/>
                         </Frame>
                     </div>
-                    
                 </div>
             </div>
         )

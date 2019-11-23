@@ -15,11 +15,8 @@ import gimpicon from './gimp.svg';
 import giticon from './github.svg';
 import vscode from './vscode.svg';
 
+import closeicon from './exit.svg';
 
-
-import exiticon from './exit.svg';
-
-console.log("TCL: vscode", vscode)
 const icons = {
     jsicon: jsicon, //1
     sassicon: sassicon,  //1
@@ -40,6 +37,6 @@ const icons = {
     gimpicon: gimpicon,
     vscode: vscode,
     
-    exiticon: exiticon,
+    closeicon: closeicon,
 }
 export default icons;
