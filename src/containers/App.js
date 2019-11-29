@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import styles from './App.scss';
-import variables from '../sass/variables.scss';
-import grid from '../sass/grid.scss'
+import  './App.scss';
+import  '../sass/variables.scss';
+import  '../sass/grid.scss'
 
 import Navigation from './Sections/Navigation/Navigation';
 import ContentLayout from './Layout/ContentLayout/ContentLayout';
@@ -13,10 +13,8 @@ import Skills from './Sections/Skills/Skills';
 import Projects from './Sections/Projects/Projects';
 import Becker from '../components/Becker/Becker';
 
-
-
 class App extends Component {
-
+ 
   render() {
     
     return (
@@ -41,11 +39,11 @@ class App extends Component {
         </ContentLayout>
 
         <ContentLayout name="Projects">
-          <Frame close="false">
-            <Projects />
-          </Frame>
+          <Projects>
+          </Projects>
           <Becker name="up"/>
         </ContentLayout>
+
       </div>
     )
   }

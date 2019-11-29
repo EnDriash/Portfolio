@@ -10,7 +10,7 @@ class AboutMe extends Component {
                 
                 <h1>About Me</h1>
                 <div className="row">
-                    <div className="col-xl-3 imageCol">
+                    <div className=" imageCol col-xl-3">
                         <div className="img personalImg">
                             <img src={personalImg} alt="My Personal IMG"></img>
                         </div>
@@ -18,7 +18,7 @@ class AboutMe extends Component {
                            <p></p> 
                         </div>
                     </div>
-                    <div className="col-xl-9 contentCol">
+                    <div className="contentCol col-xl-9">
                         <p>
                             Uwielbiam rozwijać swoje pasje i umiejętności. 
                             Pierwsze linie kodu  napisałem na studiach (Mechanika i Budowa Maszyn) i to wtedy zrozumiałem, że mój analityczny umysł stworzony jest do programowania.

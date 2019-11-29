@@ -97,7 +97,6 @@ class Navigation extends Component {
   changeViewHandler(nameOfNavElem) {
 
     const body = document.querySelector('body');
-    console.log("TCL: Navigation -> changeViewHandler -> body", body)
 
     switch(nameOfNavElem) {
       case 'AboutMe' :
@@ -115,9 +114,7 @@ class Navigation extends Component {
     }
   }
   
-
   render(){
-
     return (
       <div className="Navigation">
         <Particles className="Particles" params={particlesSettings} width="100vw" />

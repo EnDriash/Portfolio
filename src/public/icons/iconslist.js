@@ -16,6 +16,8 @@ import giticon from './github.svg';
 import vscode from './vscode.svg';
 
 import closeicon from './exit.svg';
+import keyboardicon from './keyboard-regular.svg';
+import eyeicon from './eye-regular.svg';
 
 const icons = {
     jsicon: jsicon, //1
@@ -38,5 +40,7 @@ const icons = {
     vscode: vscode,
     
     closeicon: closeicon,
+    keyboardicon: keyboardicon,
+    eyeicon: eyeicon
 }
 export default icons;

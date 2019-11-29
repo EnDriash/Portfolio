@@ -1,0 +1,19 @@
+@import '../../../sass/variables.scss';
+
+.Projects{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+
+    .animated > h1{
+        margin: 0;
+        font-size: 100px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}

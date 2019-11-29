@@ -10,6 +10,9 @@ function Becker(props) {
     return (
         <div className={`becker ${props.name}`} 
             onClick={(event) => {
+                const projectElem = document.querySelector('.ProjectsContainer .Projects');
+                console.log(projectElem)
+                projectElem.scrollTo(0,0);
                 body.classList.remove(body.className);
             }} >
             <Icon svg={icons.closeicon} />
