@@ -27,24 +27,28 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
+            },
+            {
+                title: 'React.js',
+                svg: icons.reacticon
+            },
+            {
+                title: 'Redux',
+                svg: icons.reduxicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -59,24 +63,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -91,24 +95,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -123,24 +127,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -155,24 +159,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -187,24 +191,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     },
@@ -219,24 +223,24 @@ const data = {
         },
         icons: [
             {
-                title: 'Node.js',
-                svg: icons.nodeicon
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'SASS',
+                svg: icons.sassicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
             },
             {
                 title: 'Node Package Module',
                 svg: icons.npmicon
-            },
-            {
-                title: 'Express.js',
-                svg: icons.expressicon
-            },
-            {
-                title: 'MongoDB',
-                svg: icons.mongodbicon
-            },
-            {
-                title: 'MySQL',
-                svg: icons.mysqlicon
             },
         ]
     }

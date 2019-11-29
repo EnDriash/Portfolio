@@ -82,6 +82,16 @@
             border: none;
             padding: 0;
         }
+        .technologies{
+            .Icon {
+                    transform: scale(0.7);
+                &:hover{
+                    transform: scale(0.8);
+                    
+                }
+            }
+            
+        }
 
     }
     

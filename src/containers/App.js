@@ -14,36 +14,46 @@ import Projects from './Sections/Projects/Projects';
 import Becker from '../components/Becker/Becker';
 
 class App extends Component {
- 
+ state ={
+   showContent: false
+ }
+
+ componentDidMount() {
+   this.setState({showContent: true})
+ }
+
   render() {
     
     return (
       <div className="App" >
         <Navigation />
-        
-        <ContentLayout name="AboutMe">
-          <Frame>
-            <AboutMe />
-          </Frame>
-        </ContentLayout>
+        {
+          this.state.showContent ? 
+          <div>
+            <ContentLayout name="AboutMe">
+              <Frame>
+                <AboutMe />
+              </Frame>
+            </ContentLayout>
 
-        <ContentLayout name="Contact">
-          <Frame>
-             <Contact />
-          </Frame>
-        </ContentLayout>
+            <ContentLayout name="Contact">
+              <Frame>
+                <Contact />
+              </Frame>
+            </ContentLayout>
 
-        <ContentLayout name="Skills">
-            <Skills />
-            <Becker name="down"/>
-        </ContentLayout>
+            <ContentLayout name="Skills">
+                <Skills />
+                <Becker name="down"/>
+            </ContentLayout>
 
-        <ContentLayout name="Projects">
-          <Projects>
-          </Projects>
-          <Becker name="up"/>
-        </ContentLayout>
-
+            <ContentLayout name="Projects">
+              <Projects>
+              </Projects>
+              <Becker name="up"/>
+            </ContentLayout>
+          </div> : null
+        }
       </div>
     )
   }
