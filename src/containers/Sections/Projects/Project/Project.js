@@ -33,9 +33,7 @@ function Project(props) {
                             <h4>Technologies:</h4>
                             <IconsList data={props.data.icons} />
                             <p>{props.data.skills}</p>
-
                         </div>
-                        
                     </div>
                 </div>
             </Frame>

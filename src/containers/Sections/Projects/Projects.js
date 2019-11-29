@@ -5,7 +5,7 @@ import animate from "animate.css/animate.css";
 import icons from '../../../public/icons/iconslist';
 import Project from './Project/Project';
 
-import {Animated} from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import burger from '../../../public/images/Project/BURGER.PNG'
 import blsystem from '../../../public/images/Project/BannerLinkSystem.png'
@@ -250,24 +250,25 @@ const data = {
 class Projects extends Component {
     render() {
         return (
-        <div className="Projects">
-            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        <div className="Projects" id="div-scroll">
+
+            <ScrollAnimation animateIn='zoomInDown' animateOut='zoomOutDown' scrollableParentSelector='#div-scroll' offset='0' duration='1'>
                 <h1>My Projects</h1>
-            </Animated>
+            </ScrollAnimation>
             
             {Object.values(data).map((elem, index) => {
                 if(index%2 === 0){
                     
                     return(
-                        <Animated animationIn="bounceInRight"  animationOut="fadeOut" isVisible={true}>
+                        <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutRight' scrollableParentSelector='#div-scroll' offset='400' duration='2'>
                             <Project data={elem} key={index} />
-                        </Animated>
+                        </ScrollAnimation>
                     )   
                 } else {
                     return(
-                        <Animated animationIn="bounceInLeft"  animationOut="fadeOut" isVisible={true}>
+                        <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft' scrollableParentSelector='#div-scroll' offset='400' duration='2'>
                             <Project data={elem} key={index} />
-                        </Animated>
+                        </ScrollAnimation>
                     )
                 }
                 

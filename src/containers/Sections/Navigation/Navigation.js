@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavElem from '../../../components/NavElem/NavElem';
 import styles from './Navigation.scss';
 
+import ScrollAnimation from 'react-animate-on-scroll';
 import Particles from 'react-particles-js';
 
 const navigationList = [
@@ -118,6 +119,7 @@ class Navigation extends Component {
     return (
       <div className="Navigation">
         <Particles className="Particles" params={particlesSettings} width="100vw" />
+        <ScrollAnimation animateIn='rotateIn' animateOut='rotateOut' duration='3'>
           <div className="NavigationCircle">
               {navigationList.map((elem, index) => {
                   return(
@@ -130,6 +132,7 @@ class Navigation extends Component {
                   <p><span>PL</span>|<span>EN</span></p>
               </div>
           </div>
+          </ScrollAnimation>
       </div>
     )
   }

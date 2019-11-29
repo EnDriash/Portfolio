@@ -4,7 +4,7 @@ import styles from './Skills.scss';
 import LevelContainer from '../../../containers/Sections/Skills/LevelContainer/LevelContainer';
 import Frame from '../../Layout/Frame/Frame';
 import fs from 'fs';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 import icons from '../../../public/icons/iconslist';
 
 
