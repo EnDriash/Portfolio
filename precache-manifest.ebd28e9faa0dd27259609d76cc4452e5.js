@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f558167786584f28e3037302e6a68fed",
+    "revision": "5f7ba48f76e69aa18b25cdc6c2dbee68",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "d7147120715483c4e3dd",
-    "url": "/Portfolio/static/css/2.ff29e5f6.chunk.css"
+    "revision": "d85de875b5c2c98f3dff",
+    "url": "/Portfolio/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "6da153a2904f1867dcc0",
-    "url": "/Portfolio/static/css/main.3471bd46.chunk.css"
+    "revision": "d069e40bf5f0c3e10767",
+    "url": "/Portfolio/static/css/main.52a5ae99.chunk.css"
   },
   {
-    "revision": "d7147120715483c4e3dd",
-    "url": "/Portfolio/static/js/2.f5a80549.chunk.js"
+    "revision": "d85de875b5c2c98f3dff",
+    "url": "/Portfolio/static/js/2.facccba2.chunk.js"
   },
   {
-    "revision": "6da153a2904f1867dcc0",
-    "url": "/Portfolio/static/js/main.c418f25d.chunk.js"
+    "revision": "d069e40bf5f0c3e10767",
+    "url": "/Portfolio/static/js/main.065f0d9d.chunk.js"
   },
   {
     "revision": "c83d0709bb8387303108",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "809e5b386d5c4e83579a30dd82379d92",
     "url": "/Portfolio/static/media/PRSgame.809e5b38.PNG"
+  },
+  {
+    "revision": "be66da97b6cdf34702f75cb0b86760e7",
+    "url": "/Portfolio/static/media/Portfolio.be66da97.JPG"
   },
   {
     "revision": "8756160f2d75fcdfa2e783913c5ad13e",
