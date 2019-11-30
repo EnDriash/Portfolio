@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './NavElem.scss'
+import './NavElem.scss'
 
 function NavElem(props) {
     return(

@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styles from './IconsList.scss';
+import React from 'react';
+import './IconsList.scss';
 
 import Icon from '../../../components/Icon/Icon'
 

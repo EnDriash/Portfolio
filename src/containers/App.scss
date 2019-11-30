@@ -30,11 +30,13 @@ body{
   }
   h1, h2 ,h3, h4, h5, h6{
     color: $fontcolor;
-    font-size: $fonthuge;
     font-family: $Roboto;
     border-bottom: 1px solid $fontcolor;
     padding-bottom: 2%;
     margin: 1.5% 0;
+  }
+  h1{
+    font-size: $fonthuge;
   }
   h2{
     font-size: $fontlarge;

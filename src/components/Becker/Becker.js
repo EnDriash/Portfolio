@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styles from './Becker.scss';
+import React from 'react';
+import './Becker.scss';
 
 import Icon from '../../components/Icon/Icon';
 import icons from '../../public/icons/iconslist';

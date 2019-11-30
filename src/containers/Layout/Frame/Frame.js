@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles from './Frame.scss';
+import './Frame.scss';
 
 import Closer from '../../../components/Closer/Closer'
 

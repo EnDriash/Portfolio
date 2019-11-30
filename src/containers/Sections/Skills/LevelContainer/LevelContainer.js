@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styles from './LevelContainer.scss';
+import React from 'react';
+import './LevelContainer.scss';
 
 import IconsList from '../../../Layout/IconsList/IconsList'
 

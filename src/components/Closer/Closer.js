@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import styles from './Closer.scss';
+import React from 'react';
+import './Closer.scss';
 
 function Closer(props) {
     return (

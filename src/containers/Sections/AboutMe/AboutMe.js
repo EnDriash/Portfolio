@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import personalImg from '../../../public/images/personalImg.jpg';
-import styles from './AboutMe.scss';
+import './AboutMe.scss';
 
 class AboutMe extends Component {
     
@@ -36,7 +36,7 @@ class AboutMe extends Component {
                                     <br />Freerun wywodzi się z parkouru, ale prostota i szybkość pokonywania przeszkód nie odgrywa w nim znaczącej roli. We freerun zmieniono znacząco technikę. Elementy, które pozwalały przedostać się biegnącemu przez przeszkodę jak najłatwiej i jak najszybciej, zostały zastąpione przez tricki, które są trudne do wykonania, ale mają wartość pokazową, dołączone zostały także elementy akrobatyczne.
                                 </p>
                                 <iframe width="1519" height="554" 
-                                    src="https://www.youtube.com/embed/7z6AA5jTKsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    title="The Golden Mean" src="https://www.youtube.com/embed/7z6AA5jTKsg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                                 </iframe>
                             </div>
                         </div>

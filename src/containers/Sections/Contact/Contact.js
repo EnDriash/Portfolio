@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import personalImg from '../../../public/images/personalImg.jpg'
-import styles from './Contact.scss';
+import './Contact.scss';
 
 class Contact extends Component {
 

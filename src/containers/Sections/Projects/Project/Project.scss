@@ -78,9 +78,15 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
+        
         h4{
             border: none;
             padding: 0;
+        }
+        .about{
+            p{
+                font-size: $fontlittle;
+            }
         }
         .technologies{
             .Icon {

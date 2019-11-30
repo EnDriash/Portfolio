@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import  './App.scss';
 import  '../sass/variables.scss';
-import  '../sass/grid.scss'
+import  '../sass/grid.scss';
+import 'animate.css/animate.min.css';
 
 import Navigation from './Sections/Navigation/Navigation';
 import ContentLayout from './Layout/ContentLayout/ContentLayout';
