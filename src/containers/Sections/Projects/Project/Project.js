@@ -32,11 +32,11 @@ function Project(props) {
                     <div className="content-col col-8 col-xl-8 col-md-8 col-sm-12">
                         
                         <div className="about">
-                            <h4>About Project:</h4>
+                            <h4>{props.layout.about}</h4>
                             {desc}
                         </div>
                         <div className="technologies">
-                            <h4>Technologies:</h4>
+                            <h4>{props.layout.technologies}</h4>
                             <IconsList data={props.data.icons} />
                             <p>{props.data.skills}</p>
                         </div>

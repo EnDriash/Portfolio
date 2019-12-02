@@ -1,0 +1,22 @@
+[
+    {
+        "name": "AboutMe",
+        "href": "link",
+        "text": "O mnie"
+    },
+    {
+        "name": "Skills",
+        "href": "link",
+        "text": "Umiejętności"
+    },
+    {
+        "name": "Projects",
+        "href": "link",
+        "text": "Projekty"
+    },
+    {
+        "name": "Contact",
+        "href": "link",
+        "text": "Kontakt"
+    }
+]

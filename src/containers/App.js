@@ -16,40 +16,49 @@ import Becker from '../components/Becker/Becker';
 
 class App extends Component {
  state ={
-   showContent: false
+   showContent: false,
+   lang: 'PL'
  }
 
  componentDidMount() {
    this.setState({showContent: true})
  }
 
+ changeLangHandler() {
+    if(this.state.lang === 'PL') {
+      this.setState({lang: 'ENG'});
+    } else {
+      this.setState({lang: 'PL'});
+    }
+ }
+
   render() {
     
     return (
       <div className="App" >
-        <Navigation />
+        <Navigation lang={this.state.lang} click={() => this.changeLangHandler()} />
         {
           this.state.showContent ? 
           <div>
             <ContentLayout name="AboutMe">
               <Frame>
-                <AboutMe />
+                <AboutMe lang={this.state.lang} />
               </Frame>
             </ContentLayout>
 
             <ContentLayout name="Contact">
               <Frame>
-                <Contact />
+                <Contact lang={this.state.lang} />
               </Frame>
             </ContentLayout>
 
             <ContentLayout name="Skills">
-                <Skills />
+                <Skills lang={this.state.lang} />
                 <Becker name="down"/>
             </ContentLayout>
 
             <ContentLayout name="Projects">
-              <Projects>
+              <Projects lang={this.state.lang}>
               </Projects>
               <Becker name="up"/>
             </ContentLayout>

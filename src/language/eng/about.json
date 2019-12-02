@@ -1,0 +1,13 @@
+{
+    "header": "About Me",
+    "content": {
+        "presentation": {
+            "header": "Presentation:",
+            "content": "Hello there! My name is Jędrzej Krawczyk. I'm a JavaScript Developer. I've graduated from Academy Science and Technology in Kraków with engineering degree in Mechanical and Robotic's faculty. By passion I'm programmer who is fascinating possibilities, what programming give a people –  starts from building interfaces, user experience, in the end to data science. I belong to group of people who are interested in everything, who are happy when they are looking for answers and resolving problems on their way. Moreover, I love acrobatic, freeruning/parkour and freediving."
+        },
+        "intresting":{
+            "header": "Hobby: ",
+            "content": "Freerunning is a way of expression by interacting with various obstacles and environment. Freerunning may includes flipping and spinning. These movements are usually adopted from other sports, such as gymnastics, tricking or breakdancing. Freerunners can create their own moves, flows and lines in different landscapes. It is all about becoming creative in an objective environment. Practitioners of Freerunning usually do Parkour as well. Freerunning is often associated with Parkour by adding acrobatic and stylish moves, showcasing the art of movement."
+        }
+    }
+}

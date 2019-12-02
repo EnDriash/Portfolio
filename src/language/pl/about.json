@@ -1,0 +1,13 @@
+{
+    "header": "O mnie",
+    "content": {
+        "presentation": {
+            "header": "Kilka słów o mnie:",
+            "content": "Jędrzej Krawczyk. Junior JavaScript Developer. Z wykształcenia inżynier Mechanik, z zamiłowania programista zafascynowany możliwościami jakie niesie ze sobą programowanie – począwszy od budowania interfejsów, poprzez wdrażanie UX, aż po przetwarzanie danych. Należę do tej grupy ludzi,którzy zawsze są czegoś ciekawi, którym radość sprawia samo poszukiwanie odpowiedzi i droga, która trzeba przejść by do niej dotrzeć. Poza programowaniem pasjonat akrobatyki, freeruningu/parkouru oraz nurkowania."
+        },
+        "intresting":{
+            "header": "Zainteresowania: ",
+            "content": "Freerun, freerunning, 3run  – sport ekstremalny, który polega na wykonywaniu efektownych i trudnych tricków w czasie pokonywania przeszkód na trasie biegu.    Freerun wywodzi się z parkouru, ale prostota i szybkość pokonywania przeszkód nie odgrywa w nim znaczącej roli. We freerun zmieniono znacząco technikę. Elementy, które pozwalały przedostać się biegnącemu przez przeszkodę jak najłatwiej i jak najszybciej, zostały zastąpione przez tricki, które są trudne do wykonania, ale mają wartość pokazową, dołączone zostały także elementy akrobatyczne."
+        }
+    }
+}

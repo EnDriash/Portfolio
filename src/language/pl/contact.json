@@ -1,0 +1,13 @@
+{
+    "header": "Skontaktujmy się!",
+    "content": {
+        "inputs": {
+            "name": "Twoje imię: ",
+            "email": "Twój e-mail: (jesteśNajlepszy@gmail.com)",
+            "phone": "Telefon: (0048 358 432 214)",
+            "subject": "Temat:"
+        },
+        "textarea": "Wiadomość...",
+        "button": "Wyślij!"
+    }
+}

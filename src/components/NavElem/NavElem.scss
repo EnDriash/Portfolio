@@ -22,7 +22,8 @@ div.NavElem{
         font-size: $fontlarge;
     }
    &:hover{
-    background: $lightcolor;
+        background: $lightcolor;
+        cursor: pointer;
    }
     
     &.AboutMe{

@@ -2,13 +2,24 @@ import React, {Component} from 'react';
 import personalImg from '../../../public/images/personalImg.jpg';
 import './AboutMe.scss';
 
+import projectsDataPL from '../../../language/pl/about.json';
+import projectsDataEng from '../../../language/eng/about.json';
+
 class AboutMe extends Component {
-    
+
     render() {
+        let data;
+
+        if(this.props.lang !== 'ENG'){
+        data = projectsDataEng;
+        } else {
+        data = projectsDataPL;
+        }
+        
         return (
             <div className="AboutMe">
                 
-                <h1>About Me</h1>
+                <h1>{data.header}</h1>
                 <div className="row">
                     <div className=" imageCol col-xl-3">
                         <div className="img personalImg">
@@ -21,20 +32,12 @@ class AboutMe extends Component {
                     <div className="contentCol col-xl-9">
                         <div className="row">
                             <div className="presentation-col col-xl-6">
-                            <h3>Kilka słów o mnie:</h3>
-                                <p>
-                                    <b>Jędrzej Krawczyk. Junior JavaScript Developer.</b> Z wykształcenia inżynier Mechanik, z zamiłowania programista zafascynowany możliwościami jakie niesie ze sobą programowanie 
-                                    – począwszy od budowania interfejsów, poprzez wdrażanie UX, aż po przetwarzanie danych. Należę do tej grupy ludzi, którzy zawsze są czegoś ciekawi,
-                                    którym radość sprawia samo poszukiwanie odpowiedzi i droga, która trzeba przejść by do niej dotrzeć. 
-                                    Poza programowaniem pasjonat akrobatyki, freeruningu/parkouru oraz nurkowania.
-                                </p>
+                            <h3>{data.content.presentation.header}</h3>
+                                <p>{data.content.presentation.content}</p>
                             </div>
                             <div className="intrest-col col-xl-6">
-                            <h3>Zainteresowania:</h3>
-                                <p>
-                                    <b>Freerun, freerunning, 3run  – </b>sport ekstremalny, który polega na wykonywaniu efektownych i trudnych tricków w czasie pokonywania przeszkód na trasie biegu.
-                                    <br />Freerun wywodzi się z parkouru, ale prostota i szybkość pokonywania przeszkód nie odgrywa w nim znaczącej roli. We freerun zmieniono znacząco technikę. Elementy, które pozwalały przedostać się biegnącemu przez przeszkodę jak najłatwiej i jak najszybciej, zostały zastąpione przez tricki, które są trudne do wykonania, ale mają wartość pokazową, dołączone zostały także elementy akrobatyczne.
-                                </p>
+                            <h3>{data.content.intresting.header}</h3>
+                                <p>{data.content.intresting.content}</p>
                                 <iframe width="1519" height="554" 
                                     title="The Golden Mean" src="https://www.youtube.com/embed/7z6AA5jTKsg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                                 </iframe>

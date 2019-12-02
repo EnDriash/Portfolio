@@ -53,6 +53,11 @@
                     color: $shadowcolor;
                     font-weight: 700;
                     font-size: $fontlarge;
+                    transition: ease-in-out 200ms;
+                    &:hover{
+                        font-size: $fonthuge;
+                        cursor: pointer;
+                    }
                 }
         }
         

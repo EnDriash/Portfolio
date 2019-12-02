@@ -1,0 +1,13 @@
+{
+    "header": "Contact Me",
+    "content": {
+        "inputs": {
+            "name": "Your name: ",
+            "email": "Your e-mail: (youAreGreat@gmail.com)",
+            "phone": "Phone: (0048 358 432 214)",
+            "subject": "Subject:"
+        },
+        "textarea": "Your message...",
+        "button": "SEND MESSAGE!"
+    }
+}
