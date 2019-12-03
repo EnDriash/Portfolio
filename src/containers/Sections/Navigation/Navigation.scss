@@ -52,10 +52,10 @@
                     margin: auto;
                     color: $shadowcolor;
                     font-weight: 700;
-                    font-size: $fontlarge;
+                    font-size: 40px;
                     transition: ease-in-out 200ms;
                     &:hover{
-                        font-size: $fonthuge;
+                        font-size: 60px;
                         cursor: pointer;
                     }
                 }
@@ -121,9 +121,9 @@
                         margin: auto;
                         color: $shadowcolor;
                         font-weight: 700;
-                        font-size: $fontmiddle;
+                        font-size: 15px;
                        &:hover{
-                            font-size: $fontmiddle;
+                            font-size: 25px;
                             font-weight: 900;
                        }
                     }

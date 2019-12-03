@@ -19,7 +19,7 @@ div.NavElem{
         display: inline-flex;
         align-items: center;
         width: 100%;
-        font-size: $fontlarge;
+        font-size: 30px;
     }
    &:hover{
         background: $lightcolor;
@@ -130,7 +130,7 @@ div.NavElem{
         height: 50%;
        
         p{
-            font-size: $fontsmall;
+            font-size: 15px;
         }
         
         &.AboutMe{
