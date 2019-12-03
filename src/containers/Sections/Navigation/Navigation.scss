@@ -62,6 +62,15 @@
         }
         
     }
+    .copyright{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-weight: 900;
+        font-size: $fontsmall;
+        padding: 10px;
+        opacity: 0.6;
+    }
 }
 @media (max-width: 767px){
     .Navigation{
@@ -112,14 +121,26 @@
                         margin: auto;
                         color: $shadowcolor;
                         font-weight: 700;
-                        font-size: $fontlarge;
-                       
+                        font-size: $fontmiddle;
+                       &:hover{
+                            font-size: $fontmiddle;
+                            font-weight: 900;
+                       }
                     }
             }
             
         }
-    }
-    
+        .copyright{
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-weight: 900;
+            font-size: $fonttiny;
+            padding: 10px;
+            opacity: 0.6;
+        }
+    }  
 }
 @media (min-width: 768px) and (max-width: 991px) {
 }

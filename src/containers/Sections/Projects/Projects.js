@@ -27,7 +27,6 @@ class Projects extends Component {
                 <h1>{data.mainHeaderName}</h1>
             </ScrollAnimation>
             <ScrollAnimation animateOut='fadeOut' scrollableParentSelector='#div-scroll' offset={900}  animateOnce={true} initiallyVisible={true} duration={0.5}>
-
                 <Animated className="infinite scroll-incentive" animationIn="pulse"   isVisible={true}>
                     <div><p>SCROLL</p></div>
                     <div className="scroll-incentive">
@@ -43,21 +42,27 @@ class Projects extends Component {
                 if(index%2 === 0){
                     
                     return(
-                        <ScrollAnimation key={index} animateIn='bounceInLeft' animateOut='bounceOutRight' scrollableParentSelector='#div-scroll' offset={400} duration={2}>
+                        <ScrollAnimation key={index} animateIn='bounceInLeft' animateOut='bounceOutRight' 
+                        scrollableParentSelector='#div-scroll' offset={400} duration={1}>
                             <Project layout={data.layout} data={elem} key={index} />
                         </ScrollAnimation>
                     )   
                 } else {
                     return(
-                        <ScrollAnimation key={index} animateIn='bounceInRight' animateOut='bounceOutLeft' scrollableParentSelector='#div-scroll' offset={400} duration={2}>
+                        <ScrollAnimation key={index} animateIn='bounceInRight' animateOut='bounceOutLeft' 
+                        scrollableParentSelector='#div-scroll' offset={400} duration={1}>
                             <Project layout={data.layout} data={elem} key={index} />
                         </ScrollAnimation>
                     )
                 }
                 
             })}
+            <ScrollAnimation animateIn='bounceInUp' animateOut='bounceOutDown'
+             scrollableParentSelector='#div-scroll' offset={200} duration={1}>
+                <WhatElse></WhatElse>
+            </ScrollAnimation>
+
             {this.props.children}
-            <WhatElse></WhatElse>
         </div>
         )
     }

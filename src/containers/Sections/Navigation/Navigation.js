@@ -122,6 +122,9 @@ class Navigation extends Component {
               </div>
           </div>
           </ScrollAnimation>
+          <div className="copyright">
+            <p>© Copyright by Jędrzej Siewierski-Krawczyk</p>
+          </div>
       </div>
     )
   }

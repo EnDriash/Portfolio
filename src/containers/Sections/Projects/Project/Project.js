@@ -26,7 +26,9 @@ function Project(props) {
                                     <Icon svg={icons.keyboardicon} />
                                 </a>
                             </div>
-                            <img alt="projectImage" src={props.data.previewImg}></img>
+                            <a href={props.data.preview.demo} target="_blank" rel="noopener">
+                                <img alt="projectImage" src={props.data.previewImg}></img>
+                            </a>
                         </div>
                     </div>
                     <div className="content-col col-8 col-xl-8 col-md-8 col-sm-12">

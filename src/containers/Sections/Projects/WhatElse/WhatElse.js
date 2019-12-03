@@ -4,7 +4,7 @@ import Frame from '../../../Layout/Frame/Frame';
 
 function WhatElse() {
     return(
-        <div className="whatElse">
+        <div className="WhatElse">
             <Frame close="false">
                 <h1>What Else?</h1>
                 <img src=""></img>
