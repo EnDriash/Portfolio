@@ -4,8 +4,8 @@ import './Closer.scss';
 function Closer(props) {
     return (
         <div className="close" onClick={() => {
-            const body = document.querySelector('body');
-            body.classList.remove(body.className);
+            const app = document.querySelector('.App');
+            app.classList.remove(app.classList.item(1));
             }} >
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" className="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
                     <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 

@@ -76,20 +76,20 @@ class Navigation extends Component {
     }
   }
   changeViewHandler(nameOfNavElem) {
-    const body = document.querySelector('body');
+    const app = document.querySelector('.App');
 
     switch(nameOfNavElem) {
       case 'AboutMe' :
-          body.classList.add('AboutMeShow');
+          app.classList.add('AboutMeShow');
         break;
       case 'Skills' :
-          body.classList.add('SkillsMeShow');
+          app.classList.add('SkillsMeShow');
         break;
       case 'Projects' :
-          body.classList.add('ProjectsMeShow');
+          app.classList.add('ProjectsMeShow');
         break;
       case 'Contact' :
-          body.classList.add('ContactMeShow');
+          app.classList.add('ContactMeShow');
         break;
       default : 
         break;

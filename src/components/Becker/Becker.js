@@ -5,14 +5,14 @@ import Icon from '../../components/Icon/Icon';
 import icons from '../../public/icons/iconslist';
 
 function Becker(props) {
-    const body = document.querySelector('body');
+    const app = document.querySelector('.App');
 
     return (
         <div className={`becker ${props.name}`} 
             onClick={(event) => {
                 const projectElem = document.querySelector('.ProjectsContainer .Projects');
                 projectElem.scrollTo(0,0);
-                body.classList.remove(body.className);
+                app.classList.remove(app.classList.item(1));
             }} >
             <Icon svg={icons.closeicon} />
         </div> 
