@@ -11,21 +11,25 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
     
     &.AboutMeContainer{
         position: absolute;
         transform: translate(-100vw, -100vh);
-        background-image: url("../../../public/images/About/aboutImage1920x1080.jpg");
+        background-attachment: scroll;
+        background-image: url("../../../public/images/About/aboutImageMobile.jpg");
     }
     &.ContactContainer{
         position: absolute;
         transform: translate(100vw, -100vh);
-        background-image: url("../../../public/images/Contact/contactImage1920x1080.jpg");
+        background-attachment: scroll;
+        background-image: url("../../../public/images/Contact/contactImageMobile.jpg");
     }
     &.SkillsContainer{
         position: absolute;
         transform: translate(0, -200vh);
-        background-image: url("../../../public/images/Skills/skillsImage1920x1080.jpg");
+        background-attachment: scroll;
+        background-image: url("../../../public/images/Skills/skillsImageMobile.jpg");
     }
     &.ProjectsContainer{
         position: absolute;
@@ -33,4 +37,31 @@
         background-attachment: scroll;
         background-image: url("../../../public/images/Projects/projectsImage1920x1280.jpg");
     }
+}
+@media (max-width: 767px){
+    .ContentLayout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background: black;
+        min-height: auto;
+    }
+    &.AboutMeContainer{
+        background-image: url("../../../public/images/About/aboutImageMobile.jpg");
+    }
+    &.ContactContainer{
+        background-image: url("../../../public/images/Contact/contactImageMobile.jpg");
+    }
+    &.SkillsContainer{
+        background-image: url("../../../public/images/Skills/skillsImageMobile.jpg");
+    }
+    &.ProjectsContainer{
+        background-image: url("../../../public/images/Projects/projectsImageMobile.jpg");
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
 }

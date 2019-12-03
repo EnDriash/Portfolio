@@ -38,6 +38,11 @@
                         opacity: 1;
                     }
                 }
+                .video-incentive{
+                    margin: 2.5% auto;
+                    color: $color-contrast-1;
+                    font-weight: 600;
+                }
 
                 &:hover{
                     p{
@@ -61,4 +66,89 @@
             }
 
         }
+    }
+    @media (max-width: 767px){
+        .AboutMe {
+            padding: 0 4vw;
+            h1{
+                font-size: $fontlarge;
+            }
+            .imageCol{
+                flex-direction: column;
+                padding: 0;
+                border-right: none;
+                
+                .img{
+                    padding: 15px;
+                    border: 1px solid $fontcolor;
+                    height: auto;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .contentCol{
+                padding: 0;
+                h3{
+                    margin: 0;
+                    padding: 0;
+                }
+                p{
+                    margin: 0;
+                    text-align: center;
+                    font-size: $fontmiddle;
+                }
+                .intrest-col{
+                    flex-direction: column;
+                    p{
+                        order: 2;
+                    }
+                    iframe{
+                        display: flex;
+                        order:1;
+                        border: 5px double $fontcolor ;
+                        padding: 5px;
+                        margin: 2vh 0;
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: 60%;
+                        opacity: 1;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .video-incentive{
+                        display: none;
+                    }
+    
+                    &:hover{
+                        p{
+                            display: flex;
+                        }
+                        .video-incentive{
+                            display: none;
+                        }
+                        iframe{
+                            display: flex;
+                            border: 5px double $fontcolor ;
+                            padding: 5px;
+                            box-sizing: border-box;
+                            width: 100%;
+                            height: 55%;
+                        }
+                    }
+    
+                }
+                .presentation-col{
+                    padding: 0;
+                    flex-direction: column;
+                    
+                }
+    
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
     }

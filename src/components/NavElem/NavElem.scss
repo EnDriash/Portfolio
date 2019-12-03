@@ -122,4 +122,85 @@ div.NavElem{
         }
     }
 }
+@media (max-width: 767px){
+    div.NavElem{
+        opacity: 0.9;
+        display: inline-flex;
+        width: 50%;
+        height: 50%;
+       
+        p{
+            font-size: $fontsmall;
+        }
+        
+        &.AboutMe{
+            border-radius: 100% 0 20% 0;
+            transition: ease-in-out 1s;
+            p{
+                transform: rotate(-$startrotatepoint);
+                transition: none;
+                padding-left: 10px;
+            }
+            &:hover{
+                transform: translate(0px, 0px);
+                p{
+                    transform: rotate(-$startrotatepoint);
+                    position: relative;
+                    left: 0px;
+                    top: 0px;
+                } 
+            }
+           
+        }
 
+
+     &.Skills{
+        p{
+            transform: rotate( $startrotatepoint + 90deg);
+        }
+        &:hover{
+            opacity: 1;
+            transform: none;
+            p{
+                transform: rotate(-$startrotatepoint) translate(0, 0);
+            } 
+        }
+    }
+
+
+    &.Contact{
+        p{
+            transform: rotate($startrotatepoint + 90deg);
+            padding-right: 20px;
+            left: 0px;
+            top: 0px;
+        }
+        &:hover{
+            transform: none;
+            p{
+                transform: rotate(-$startrotatepoint);
+                left: 0px;
+                top: 0px;
+                
+            } 
+        }
+    }
+
+
+    &.Projects{
+        p{
+            transform: rotate( $startrotatepoint + 90deg);
+        }
+        &:hover{
+            transform: translate(0, 0);
+            p{
+                transform: rotate(-$startrotatepoint) translate(0, -25px);
+            } 
+        }
+    }
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}

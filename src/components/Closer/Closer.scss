@@ -18,6 +18,8 @@
         top: 10%;
         width: 40%;
         color: $fontcolor;
-        
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

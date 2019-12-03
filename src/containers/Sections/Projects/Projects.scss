@@ -11,9 +11,85 @@
     flex-wrap: wrap;
     scroll-behavior: smooth;
 
+    .animated.scroll-incentive{
+        position: relative;
+        
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin: 5px;
+            color: $fontcolor;
+            font-size: $fontlarge;
+            font-weight: 900;
+            display: flex;
+        }
+        div.scroll-incentive{
+            display: flex;
+            flex-direction: column;
+            svg{
+                height: auto;
+                width: 2.5vw;
+                padding: 0;
+                margin: -10px;
+                font-weight: 600;
+                color: $fontcolor;
+                font-size: $fontmiddle;
+            }
+        }
+    }
     .animated > h1{
         margin: 0;
         font-size: 100px;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+}
+@media (max-width: 767px){
+    .Projects{
+        position: relative;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        scroll-behavior: smooth;
+    
+        .animated.scroll-incentive{
+            position: relative;
+            
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin: 0px;
+                padding: 10px 0;
+                color: $fontcolor;
+                font-size: $fontmiddle;
+                font-weight: 900;
+                display: flex;
+            }
+            div.scroll-incentive{
+                display: flex;
+                flex-direction: column;
+                svg{
+                    height: auto;
+                    width: 10vw;
+                    padding: 0;
+                    margin: -10px;
+                    font-weight: 600;
+                    color: $fontcolor;
+                    font-size: $fontmiddle;
+                }
+            }
+        }
+        .animated > h1{
+            margin: 0;
+            font-size: 50px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
 }

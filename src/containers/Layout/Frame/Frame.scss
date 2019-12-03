@@ -9,3 +9,13 @@
     overflow: auto;
 
 }
+@media (max-width: 767px){
+    .Frame{
+        position: relative;
+        max-height: 98vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}

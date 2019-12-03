@@ -55,3 +55,12 @@ body{
   }
   
 }
+@media (max-width: 767px){
+  h1, h2 ,h3, h4, h5, h6, p, .Icon{
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}

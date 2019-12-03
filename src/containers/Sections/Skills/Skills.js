@@ -22,7 +22,7 @@ class Skills extends Component {
         return (
             <div className="Skills">
                 <div className="specrow">
-                    <div className="left-col col-4 col-xl-4 col-md-12 col-sm-12">
+                    <div className="left-col col-4 col-xl-4 col-md-4 col-sm-12">
                         <Frame close="false">
                             <h1>{data.frontend.header}</h1>
                             <LevelContainer data={data.frontend.advanced}/>
@@ -30,14 +30,14 @@ class Skills extends Component {
                             <LevelContainer data={data.frontend.basics}/>
                         </Frame>
                     </div>
-                    <div className="middle-col col-4 col-xl-4 col-md-12 col-sm-12">
+                    <div className="middle-col col-4 col-xl-4 col-md-4 col-sm-12">
                         <Frame close="false">
                             <h1>{data.others.header}</h1>
                             <LevelContainer data={data.others.DeveloperTools}/>
                             <LevelContainer data={data.others.Programs}/>
                         </Frame>
                     </div>
-                    <div className="right-col col-4 col-xl-4 col-md-12 col-sm-12">
+                    <div className="right-col col-4 col-xl-4 col-md-4 col-sm-12">
                         <Frame close="false">
                             <h1>{data.backend.header}</h1>
                             <LevelContainer data={data.backend.basics}/>
