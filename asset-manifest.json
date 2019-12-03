@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b72b4ec5.chunk.css",
-    "main.js": "/Portfolio/static/js/main.1babcbcc.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.1babcbcc.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.4a2659ba.chunk.css",
+    "main.js": "/Portfolio/static/js/main.146d8d0a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.146d8d0a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.06495d49.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.06495d49.js.map",
     "static/css/2.5bc09813.chunk.css": "/Portfolio/static/css/2.5bc09813.chunk.css",
-    "static/js/2.5762ae58.chunk.js": "/Portfolio/static/js/2.5762ae58.chunk.js",
-    "static/js/2.5762ae58.chunk.js.map": "/Portfolio/static/js/2.5762ae58.chunk.js.map",
+    "static/js/2.bc2d4d2c.chunk.js": "/Portfolio/static/js/2.bc2d4d2c.chunk.js",
+    "static/js/2.bc2d4d2c.chunk.js.map": "/Portfolio/static/js/2.bc2d4d2c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.8c8ad64ff92da429e1d23843a29de68d.js": "/Portfolio/precache-manifest.8c8ad64ff92da429e1d23843a29de68d.js",
+    "precache-manifest.9d0fc7a1c6e171074dc258512078be68.js": "/Portfolio/precache-manifest.9d0fc7a1c6e171074dc258512078be68.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.5bc09813.chunk.css.map": "/Portfolio/static/css/2.5bc09813.chunk.css.map",
-    "static/css/main.b72b4ec5.chunk.css.map": "/Portfolio/static/css/main.b72b4ec5.chunk.css.map",
+    "static/css/main.4a2659ba.chunk.css.map": "/Portfolio/static/css/main.4a2659ba.chunk.css.map",
     "static/media/AWAX.jpg": "/Portfolio/static/media/AWAX.b18028f3.jpg",
     "static/media/BURGER.PNG": "/Portfolio/static/media/BURGER.77d3551c.PNG",
     "static/media/BannerLinkSystem.png": "/Portfolio/static/media/BannerLinkSystem.8d536008.png",
@@ -20,7 +20,7 @@
     "static/media/MACHE.jpg": "/Portfolio/static/media/MACHE.3389ef0f.jpg",
     "static/media/PRSgame.PNG": "/Portfolio/static/media/PRSgame.809e5b38.PNG",
     "static/media/Portfolio.JPG": "/Portfolio/static/media/Portfolio.be66da97.JPG",
-    "static/media/ContentLayout.scss": "/Portfolio/static/media/skillsImage1920x1080.e2e21b36.jpg",
+    "static/media/ContentLayout.scss": "/Portfolio/static/media/skillsImageMobile.7855978a.jpg",
     "static/media/css3-alt-brands.svg": "/Portfolio/static/media/css3-alt-brands.89160280.svg",
     "static/media/exit.svg": "/Portfolio/static/media/exit.2c5552a1.svg",
     "static/media/expressjs-icon.svg": "/Portfolio/static/media/expressjs-icon.2c637fdc.svg",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.06495d49.js",
     "static/css/2.5bc09813.chunk.css",
-    "static/js/2.5762ae58.chunk.js",
-    "static/css/main.b72b4ec5.chunk.css",
-    "static/js/main.1babcbcc.chunk.js"
+    "static/js/2.bc2d4d2c.chunk.js",
+    "static/css/main.4a2659ba.chunk.css",
+    "static/js/main.146d8d0a.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7478d35a4d5b6159a36ef77163fa0cec",
+    "revision": "f4acda401102b13c3818262ce6d963f0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5e3063674f1628a679be",
+    "revision": "289ae1be82ce93bd2391",
     "url": "/Portfolio/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "75c6ea5e363e814f23ba",
-    "url": "/Portfolio/static/css/main.b72b4ec5.chunk.css"
+    "revision": "7fa9e5c3c32bc265c85d",
+    "url": "/Portfolio/static/css/main.4a2659ba.chunk.css"
   },
   {
-    "revision": "5e3063674f1628a679be",
-    "url": "/Portfolio/static/js/2.5762ae58.chunk.js"
+    "revision": "289ae1be82ce93bd2391",
+    "url": "/Portfolio/static/js/2.bc2d4d2c.chunk.js"
   },
   {
-    "revision": "75c6ea5e363e814f23ba",
-    "url": "/Portfolio/static/js/main.1babcbcc.chunk.js"
+    "revision": "7fa9e5c3c32bc265c85d",
+    "url": "/Portfolio/static/js/main.146d8d0a.chunk.js"
   },
   {
     "revision": "c83d0709bb8387303108",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Portfolio.be66da97.JPG"
   },
   {
-    "revision": "8756160f2d75fcdfa2e783913c5ad13e",
-    "url": "/Portfolio/static/media/aboutImage1920x1080.8756160f.jpg"
+    "revision": "f542b22c0e44b955232c2b80c1e4006e",
+    "url": "/Portfolio/static/media/aboutImageMobile.f542b22c.jpg"
   },
   {
-    "revision": "63e94975de09fb80fdbfc148ceae053b",
-    "url": "/Portfolio/static/media/contactImage1920x1080.63e94975.jpg"
+    "revision": "3e179f5de2870bbe4db0cda3be42a2b6",
+    "url": "/Portfolio/static/media/contactImageMobile.3e179f5d.jpg"
   },
   {
     "revision": "891602808dad064618873294ff7d342a",
@@ -132,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/projectsImage1920x1280.2bc33b81.jpg"
   },
   {
+    "revision": "f7998461c8d19478eae1f09d02ea54c9",
+    "url": "/Portfolio/static/media/projectsImageMobile.f7998461.jpg"
+  },
+  {
     "revision": "38b2e78f6c3d73c536bef66432652547",
     "url": "/Portfolio/static/media/react-brands.38b2e78f.svg"
   },
@@ -144,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/sass-brands.f6a740c2.svg"
   },
   {
-    "revision": "e2e21b368f4a916bcecd1d3f85bbafe1",
-    "url": "/Portfolio/static/media/skillsImage1920x1080.e2e21b36.jpg"
+    "revision": "7855978a9d03d58c87af94944066017f",
+    "url": "/Portfolio/static/media/skillsImageMobile.7855978a.jpg"
   },
   {
     "revision": "0420c16d04d080aee2f5a7079572aa37",
