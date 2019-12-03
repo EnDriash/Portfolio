@@ -2,7 +2,8 @@
 
 .Frame{
     position: relative;
-    max-height: 90vh;
+    height: auto;
+    flex-wrap: wrap;
     width: 95%;
     background: $shadowcartcolor;
     border-radius: 20px;
@@ -12,7 +13,8 @@
 @media (max-width: 767px){
     .Frame{
         position: relative;
-        max-height: 98vh;
+        height: auto;
+        flex-wrap: wrap;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
