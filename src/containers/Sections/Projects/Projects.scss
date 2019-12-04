@@ -6,11 +6,11 @@
     width: 100vw;
     height: 100vh;
     overflow: auto;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     scroll-behavior: smooth;
-    
+
     .Swipe{
         display: none;
     }
@@ -67,7 +67,6 @@
         }
         .animated.scroll-incentive{
             position: relative;
-            
             flex-direction: column;
             align-items: center;
             p{

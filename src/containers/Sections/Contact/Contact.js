@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './Contact.scss';
+import Swipe from 'react-easy-swipe';
 
 import contactDataPL from '../../../language/pl/contact.json';
 import contactDataEng from '../../../language/eng/contact.json';
 
 class Contact extends Component {
 
+backHandler(position, event) {
+    const app = document.querySelector('.App');
+    app.classList.remove(app.classList.item(1));
+}
 
     render() {
         let data;
@@ -39,6 +44,9 @@ class Contact extends Component {
                         </form>
                     </div>
                 </div>
+                <Swipe onSwipeRight={this.backHandler}>
+                        <div className="Swipe"></div>
+                </Swipe>
             </div>
         )
     }

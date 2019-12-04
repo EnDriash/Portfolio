@@ -57,8 +57,35 @@ body{
   
 }
 @media (max-width: 767px){
+
   h1, h2 ,h3, h4, h5, h6, p, .Icon{
     transform: scale(0.8);
+  }
+
+  .App {
+    .ContentLayout{
+      display: none;
+    }
+    &.AboutMeShow{
+      .AboutMeContainer{
+        display: flex;
+      }
+    }
+    &.ContactMeShow{
+      .ContactContainer{
+        display: flex;
+      }
+    }
+    &.SkillsMeShow{
+      .SkillsContainer{
+        display: flex;
+      }
+    }
+    &.ProjectsMeShow{
+      .ProjectsContainer{
+        display: flex;
+      }
+    }
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

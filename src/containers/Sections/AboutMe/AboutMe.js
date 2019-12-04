@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import personalImg from '../../../public/images/personalImg.jpg';
 import './AboutMe.scss';
 import {Animated} from "react-animated-css";
+import Swipe from 'react-easy-swipe';
 
 import projectsDataPL from '../../../language/pl/about.json';
 import projectsDataEng from '../../../language/eng/about.json';
@@ -11,6 +12,11 @@ console.log("TCL: videoElem", videoElem)
 
 class AboutMe extends Component {
     
+    backHandler(position, event) {
+        const app = document.querySelector('.App');
+        app.classList.remove(app.classList.item(1));
+    }
+
     render() {
         let data;
 
@@ -52,9 +58,9 @@ class AboutMe extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="pagination">
-                    {/* <PaginationList /> */}
-                </div>
+                <Swipe onSwipeLeft={this.backHandler}>
+                        <div className="Swipe"></div>
+                </Swipe>
                 
             </div>
         )

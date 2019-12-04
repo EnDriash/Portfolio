@@ -49,17 +49,13 @@ class App extends Component {
           
             <ContentLayout name="AboutMe">
               <Frame>
-                <Swipe onSwipeLeft={this.backHandler}>
                   <AboutMe lang={this.state.lang} />
-                </Swipe>
               </Frame>
             </ContentLayout>
           
             <ContentLayout name="Contact">
               <Frame>
-                <Swipe onSwipeRight={this.backHandler}>
                   <Contact lang={this.state.lang} />
-                </Swipe>
               </Frame>
             </ContentLayout>
 
