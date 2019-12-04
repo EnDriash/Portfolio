@@ -128,7 +128,9 @@ div.NavElem{
         display: inline-flex;
         width: 50%;
         height: 50%;
-       
+        &:hover{
+            background: $shadowcolor;
+        }
         p{
             font-size: 15px;
         }
