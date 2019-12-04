@@ -10,13 +10,12 @@
     align-items: center;
     flex-wrap: wrap;
     scroll-behavior: smooth;
-
+    box-sizing: border-box;
     .Swipe{
         display: none;
     }
     .animated.scroll-incentive{
         position: relative;
-        
         flex-direction: column;
         align-items: center;
         p{
@@ -50,13 +49,13 @@
     .Projects{
         position: relative;
         display: flex;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         overflow: auto;
         justify-content: center;
-        align-items: stretch;
         flex-wrap: wrap;
         scroll-behavior: smooth;
+        overflow: hidden;
         .Swipe{
             display: flex;
             position: absolute;

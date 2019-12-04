@@ -63,6 +63,9 @@ body{
   }
 
   .App {
+    .close{
+      display: none;
+    }
     .ContentLayout{
       display: none;
     }

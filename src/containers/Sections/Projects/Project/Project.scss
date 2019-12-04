@@ -123,8 +123,8 @@
             justify-content: center  !important;
             .Frame{
                 margin-left: 0;
-                border-top-right-radius: 0;
-                border-bottom-right-radius: 0;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
             }
         }
     }
@@ -135,7 +135,7 @@
         min-height: 55vh;
         height: auto;
         margin: 2.5vh 0;
-        
+        box-sizing: border-box;
         h1{
             padding-left: 0px;
             font-size: $fontlarge;
