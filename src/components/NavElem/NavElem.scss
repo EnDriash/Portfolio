@@ -122,6 +122,8 @@ div.NavElem{
         }
     }
 }
+
+
 @media (max-width: 767px){
     div.NavElem{
         opacity: 0.9;
@@ -145,6 +147,7 @@ div.NavElem{
             }
             &:hover{
                 transform: translate(0px, 0px);
+                box-shadow: none;
                 p{
                     transform: rotate(-$startrotatepoint);
                     position: relative;
@@ -161,6 +164,7 @@ div.NavElem{
             transform: rotate( $startrotatepoint + 90deg);
         }
         &:hover{
+            box-shadow: none;
             opacity: 1;
             transform: none;
             p{
@@ -178,6 +182,7 @@ div.NavElem{
             top: 0px;
         }
         &:hover{
+            box-shadow: none;
             transform: none;
             p{
                 transform: rotate(-$startrotatepoint);
@@ -194,6 +199,7 @@ div.NavElem{
             transform: rotate( $startrotatepoint + 90deg);
         }
         &:hover{
+            box-shadow: none;
             transform: translate(0, 0);
             p{
                 transform: rotate(-$startrotatepoint) translate(0, -25px);
