@@ -10,7 +10,10 @@
     align-items: stretch;
     flex-wrap: wrap;
     scroll-behavior: smooth;
-
+    
+    .Swipe{
+        display: none;
+    }
     .animated.scroll-incentive{
         position: relative;
         
@@ -54,7 +57,14 @@
         align-items: stretch;
         flex-wrap: wrap;
         scroll-behavior: smooth;
-    
+        .Swipe{
+            display: flex;
+            position: absolute;
+            top:0;
+            width: 100vw;
+            height: 40vh;
+            z-index: 1;
+        }
         .animated.scroll-incentive{
             position: relative;
             

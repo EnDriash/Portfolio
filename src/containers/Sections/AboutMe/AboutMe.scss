@@ -69,7 +69,7 @@
     }
     @media (max-width: 767px){
         .AboutMe {
-            padding: 0 4vw;
+            padding: 3vw;
             h1{
                 font-size: $fontlarge;
             }
@@ -79,7 +79,7 @@
                 border-right: none;
                 
                 .img{
-                    padding: 15px;
+                    padding: 10px;
                     border: 1px solid $fontcolor;
                     height: auto;
                     img{

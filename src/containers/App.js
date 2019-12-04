@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Swipe from 'react-easy-swipe';
 
 import  './App.scss';
 import  '../sass/variables.scss';
@@ -32,6 +33,11 @@ class App extends Component {
     }
  }
 
+ backHandler(position, event) {
+  const app = document.querySelector('.App');
+  app.classList.remove(app.classList.item(1));
+}
+
   render() {
     
     return (
@@ -40,15 +46,20 @@ class App extends Component {
         {
           this.state.showContent ? 
           <div>
+          
             <ContentLayout name="AboutMe">
               <Frame>
-                <AboutMe lang={this.state.lang} />
+                <Swipe onSwipeLeft={this.backHandler}>
+                  <AboutMe lang={this.state.lang} />
+                </Swipe>
               </Frame>
             </ContentLayout>
-
+          
             <ContentLayout name="Contact">
               <Frame>
-                <Contact lang={this.state.lang} />
+                <Swipe onSwipeRight={this.backHandler}>
+                  <Contact lang={this.state.lang} />
+                </Swipe>
               </Frame>
             </ContentLayout>
 
@@ -62,6 +73,7 @@ class App extends Component {
               </Projects>
               <Becker name="up"/>
             </ContentLayout>
+            
           </div> : null
         }
       </div>

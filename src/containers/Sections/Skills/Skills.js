@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Swipe from 'react-easy-swipe';
 import './Skills.scss';
 
 import LevelContainer from '../../../containers/Sections/Skills/LevelContainer/LevelContainer';
@@ -9,7 +10,12 @@ import skillsDataPL from '../../../language/pl/skills.js';
 import skillsDataEng from '../../../language/eng/skills.js';
 
 class Skills extends Component {
-    
+
+backHandler(position, event) {
+    const app = document.querySelector('.App');
+    app.classList.remove(app.classList.item(1));
+}
+
     render() {
         let data;
 
@@ -23,7 +29,7 @@ class Skills extends Component {
             <div className="Skills">
                 <div className="specrow">
                     <div className="left-col col-4 col-xl-4 col-md-4 col-sm-12">
-                        <Frame close="false">
+                        <Frame close="false" >
                             <h1>{data.frontend.header}</h1>
                             <LevelContainer data={data.frontend.advanced}/>
                             <LevelContainer data={data.frontend.intermediate}/>
@@ -43,6 +49,9 @@ class Skills extends Component {
                             <LevelContainer data={data.backend.basics}/>
                         </Frame>
                     </div>
+                    <Swipe onSwipeUp={this.backHandler}>
+                        <div className="Swipe"></div>
+                    </Swipe>
                 </div>
             </div>
         )

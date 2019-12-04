@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Projects.scss';
 import {Animated} from "react-animated-css";
+import Swipe from 'react-easy-swipe';
 
 import Project from './Project/Project';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -11,6 +12,12 @@ import dataPL from '../../../language/pl/projects';
 
 
 class Projects extends Component {
+
+backHandler(position, event) {
+    const app = document.querySelector('.App');
+    app.classList.remove(app.classList.item(1));
+}
+
     render() {
         let data;
 
@@ -22,7 +29,9 @@ class Projects extends Component {
         
         return (
         <div className="Projects" id="div-scroll">
-
+        <Swipe onSwipeDown={this.backHandler}>
+            <div className="Swipe"></div>
+        </Swipe>
             <ScrollAnimation animateIn='zoomInDown' animateOut='zoomOutDown' scrollableParentSelector='#div-scroll' offset={0} duration={1}>
                 <h1>{data.mainHeaderName}</h1>
             </ScrollAnimation>

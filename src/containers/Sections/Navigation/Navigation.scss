@@ -10,6 +10,7 @@
     align-items: center;
     height: 100vh;
     min-height: 600px;
+    overflow: hidden;
 
     .Particles{
         position: absolute;
@@ -18,6 +19,7 @@
         z-index: 0;
         width: 100%;
         height: 100%;
+        overflow: hidden;
       }
 
     .NavigationCircle {
@@ -84,7 +86,9 @@
         align-items: center;
         height: 100vh;
         min-height: 300px;
-    
+        flex-wrap: nowrap;
+        overflow: hidden;
+
         .Particles{
             display: none;
           }
@@ -92,8 +96,8 @@
         .NavigationCircle {
             opacity: 0.85;
             z-index: 1;
-            height: 80vw;
-            width: 80vw;
+            height: 90vw;
+            width: 90vw;
             transform: rotate(-45deg);
             min-width: 176px;
             min-height: 176px;
