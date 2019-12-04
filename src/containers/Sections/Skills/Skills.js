@@ -13,6 +13,9 @@ class Skills extends Component {
 
 backHandler(position, event) {
     const app = document.querySelector('.App');
+    const skillsElem = document.querySelector('.ContentLayout .Skills');
+    console.log(skillsElem)
+    skillsElem.scrollTo(0,0);
     app.classList.remove(app.classList.item(1));
 }
 
