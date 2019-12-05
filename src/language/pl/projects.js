@@ -16,42 +16,6 @@ const data = {
         technologies: "Technologie:"
     },
     projects:{
-    currentwork: {
-        header: 'Czym się teraz zajmuje? - ',
-        title: 'Burger Builder App',
-        desc: <p>Jest to projekt aplikacji realizowanej wg. programu kursu na <b>Udemy</b> stworzonego przez <i>Maximilian'a a Schwarzmüller'a</i>. Kurs porusza tworzenie stron w bibliotece <b>React.js</b> z najnowszymi standardami i dobrymi praktykami. Poruszane są tematy takie jak zarządzanie stanem komponentu w <b>Redux</b> w architekturze Flux, routing po stronie frontendu czyli biblioteka <b>React Router</b>, tworzenie inteligentynych komponentów w <b>React Hooks</b>. Łącznie <b>40h</b> specjalistycznej wiedzy popartej praktyką aby wyspecjalizować się w bibliotece React.js.</p>,
-        previewImg: burger,
-        preview:{
-            demo: 'https://endriash.github.io/BurgerApp-ReactLearning/',
-            code: 'https://github.com/EnDriash/BurgerApp-ReactLearning',
-        },
-        icons: [
-            {
-                title: 'HTML5',
-                svg: icons.html5icon
-            },
-            {
-                title: 'CSS3',
-                svg: icons.cssicon
-            },
-            {
-                title: 'JavaScript',
-                svg: icons.jsicon
-            },
-            {
-                title: 'React.js',
-                svg: icons.reacticon
-            },
-            {
-                title: 'Redux',
-                svg: icons.reduxicon
-            },
-            {
-                title: 'Node Package Module',
-                svg: icons.npmicon
-            },
-        ]
-    },
     portfolio: {
         header: 'Tu gdzie się poznajemy - ',
         title: 'Moje Portfolio',
@@ -247,7 +211,66 @@ const data = {
                 svg: icons.npmicon
             },
         ]
+    },
+    currentwork: {
+        header: 'Czym się teraz zajmuje? - ',
+        title: 'Burger Builder App',
+        desc: <p>Jest to projekt aplikacji realizowanej wg. programu kursu na <b>Udemy</b> stworzonego przez <i>Maximilian'a a Schwarzmüller'a</i>. Kurs porusza tworzenie stron w bibliotece <b>React.js</b> z najnowszymi standardami i dobrymi praktykami. Poruszane są tematy takie jak zarządzanie stanem komponentu w <b>Redux</b> w architekturze Flux, routing po stronie frontendu czyli biblioteka <b>React Router</b>, tworzenie inteligentynych komponentów w <b>React Hooks</b>. Łącznie <b>40h</b> specjalistycznej wiedzy popartej praktyką aby wyspecjalizować się w bibliotece React.js.</p>,
+        previewImg: burger,
+        preview:{
+            demo: 'https://endriash.github.io/BurgerApp-ReactLearning/',
+            code: 'https://github.com/EnDriash/BurgerApp-ReactLearning',
+        },
+        icons: [
+            {
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
+            },
+            {
+                title: 'React.js',
+                svg: icons.reacticon
+            },
+            {
+                title: 'Redux',
+                svg: icons.reduxicon
+            },
+            {
+                title: 'Node Package Module',
+                svg: icons.npmicon
+            },
+        ]
     }
+    },
+    whatElse:{
+        header: 'Co jeszcze?',
+        content:{
+            node:{
+                name: 'node',
+                header: 'Node.js',
+                desc: '',
+                link: ''
+            },
+            mongo:{
+                name: 'mongo',
+                header: 'MongoDB',
+                desc: '',
+                link: ''
+            },
+            express:{
+                name: 'express',
+                header: 'Express.js',
+                desc: '',
+                link: ''
+            },
+        }
     }
 }
 export default data;

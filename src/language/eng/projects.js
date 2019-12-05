@@ -16,42 +16,6 @@ const data = {
         technologies: "Technologies:"
     },
     projects:{
-    currentwork: {
-        header: 'What I actually do? - ',
-        title: 'Burger Builder App',
-        desc: <p>This is an application project which has been realized during course on Udemy platform made by <b>Maximilian Schwarzmüller</b>. The course is about web development in <b>React.js</b> library with the newest standards and good practices. Schedule of program includes management of lifecycle components, store state in <b>Redux</b> library in <b>Flux</b> architecture, routing besides frontend with <b>React Router</b>, create functional components in <b>React Hooks</b>. It has <b>40 hours</b> of specialistic knowledge during it I has created practical application. Course allows me rised my skills in creating web application in React.js library.</p>,
-        previewImg: burger,
-        preview:{
-            demo: 'https://endriash.github.io/BurgerApp-ReactLearning/',
-            code: 'https://github.com/EnDriash/BurgerApp-ReactLearning',
-        },
-        icons: [
-            {
-                title: 'HTML5',
-                svg: icons.html5icon
-            },
-            {
-                title: 'CSS3',
-                svg: icons.cssicon
-            },
-            {
-                title: 'JavaScript',
-                svg: icons.jsicon
-            },
-            {
-                title: 'React.js',
-                svg: icons.reacticon
-            },
-            {
-                title: 'Redux',
-                svg: icons.reduxicon
-            },
-            {
-                title: 'Node Package Module',
-                svg: icons.npmicon
-            },
-        ]
-    },
     portfolio: {
         header: 'Here, where you are - ',
         title: 'My Portfolio',
@@ -247,7 +211,66 @@ const data = {
                 svg: icons.npmicon
             },
         ]
+    },
+    currentwork: {
+        header: 'What I actually do? - ',
+        title: 'Burger Builder App',
+        desc: <p>This is an application project which has been realized during course on Udemy platform made by <b>Maximilian Schwarzmüller</b>. The course is about web development in <b>React.js</b> library with the newest standards and good practices. Schedule of program includes management of lifecycle components, store state in <b>Redux</b> library in <b>Flux</b> architecture, routing besides frontend with <b>React Router</b>, create functional components in <b>React Hooks</b>. It has <b>40 hours</b> of specialistic knowledge during it I has created practical application. Course allows me rised my skills in creating web application in React.js library.</p>,
+        previewImg: burger,
+        preview:{
+            demo: 'https://endriash.github.io/BurgerApp-ReactLearning/',
+            code: 'https://github.com/EnDriash/BurgerApp-ReactLearning',
+        },
+        icons: [
+            {
+                title: 'HTML5',
+                svg: icons.html5icon
+            },
+            {
+                title: 'CSS3',
+                svg: icons.cssicon
+            },
+            {
+                title: 'JavaScript',
+                svg: icons.jsicon
+            },
+            {
+                title: 'React.js',
+                svg: icons.reacticon
+            },
+            {
+                title: 'Redux',
+                svg: icons.reduxicon
+            },
+            {
+                title: 'Node Package Module',
+                svg: icons.npmicon
+            },
+        ]
     }
+    },
+    whatElse:{
+        header: 'What Else?',
+        content:{
+            node:{
+                name: 'node',
+                header: 'Node.js',
+                desc: '',
+                link: ''
+            },
+            mongo:{
+                name: 'mongo',
+                header: 'MongoDB',
+                desc: '',
+                link: ''
+            },
+            express:{
+                name: 'express',
+                header: 'Express.js',
+                desc: '',
+                link: ''
+            },
+        }
     }
 }
 export default data;

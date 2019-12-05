@@ -1,9 +1,7 @@
 import React from 'react';
 import './IconsList.scss';
 
-import Icon from '../../../components/Icon/Icon'
-
-  
+import Icon from '../../../components/Icon/Icon';
 
 function IconsList(props) {
         return (

@@ -9,6 +9,7 @@
     .Swipe{
         display: none;
     }
+    
     h1{
         margin: 0;
         opacity: 1;
@@ -16,7 +17,7 @@
         color: $shadowcolor;
         justify-content: center;
         text-align: center;
-        border-bottom: 1px solid wheat;
+        border-bottom: 1px solid black;
     }
     h2{
         opacity: 0.9;
@@ -49,7 +50,6 @@
             display: flex;
             position: absolute;
             bottom:0;
-            left: 0;
             width: 100vw;
             height: 40vh;
             z-index: 1;

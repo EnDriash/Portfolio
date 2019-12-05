@@ -1,26 +1,21 @@
 import React, {Component} from 'react';
 import './WhatElse.scss';
 import Frame from '../../../Layout/Frame/Frame';
+import SmallProject from './SmallProject/SmallProject'
 
-function WhatElse() {
+function WhatElse(props) {
+    
     return(
+        
         <div className="WhatElse">
             <Frame close="false">
-                <h1>What Else?</h1>
-                <img src=""></img>
-                <div className="technical">
-                    <h3>Node.js</h3>
-                    <p></p>
-                </div>
-                <div className="technical">
-                    <h3>MongoDB - Console CRUD Application</h3>
-                    <p></p>
-                </div>
-                <div className="technical">
-                    <h3>Express.js - Quiz Application</h3>
-                    <p></p>
-                </div>
-                <p></p>
+                <h1>{props.data.header}</h1>
+                {
+                Object.values(props.data.content).map((elem, index) => {
+                    return <SmallProject key={index} data={elem} />
+                    })
+                }
+                
             </Frame>
         </div>
     )

@@ -2,7 +2,7 @@
 
 .animated{
     display: flex;
-    &:nth-child(odd) .Project{
+    &:nth-child(even) .Project{
         justify-content: flex-start !important;
         .Frame{
             margin-right: 15vw;
@@ -10,7 +10,7 @@
             border-bottom-left-radius: 0;
         }
     }
-    &:nth-child(even) .Project{
+    &:nth-child(odd) .Project{
         justify-content: flex-end  !important;
         .Frame{
             margin-left: 15vw;

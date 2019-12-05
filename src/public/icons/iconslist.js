@@ -1,6 +1,7 @@
 import reacticon from './react-brands.svg';
 import reduxicon from './redux.svg';
 import jsicon from './js-square-brands.svg';
+import javaicon from './java-icon.svg'
 import sassicon from './sass-brands.svg';
 import psicon from './photoshop.svg';
 import npmicon from './nppm.svg';
@@ -26,7 +27,8 @@ const icons = {
     html5icon: html5icon, //1
     reacticon: reacticon, //1
     reduxicon: reduxicon, //1
-        
+    javaicon: javaicon,
+    
     npmicon: npmicon, //1
     nodeicon: nodeicon, //1
     expressicon: expressicon, //1

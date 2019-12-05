@@ -54,7 +54,7 @@ let data = {
                     svg: icons.nodeicon
                 },
                 {
-                    title: 'Node Package Module',
+                    title: 'Node Package Manager',
                     svg: icons.npmicon
                 },
                 {
@@ -69,6 +69,10 @@ let data = {
                     title: 'MySQL',
                     svg: icons.mysqlicon
                 },
+                {
+                    title: 'Java',
+                    svg: icons.javaicon
+                }
             ]
         },
         intermediate: {

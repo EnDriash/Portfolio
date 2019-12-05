@@ -8,7 +8,6 @@ import projectsDataPL from '../../../language/pl/about.json';
 import projectsDataEng from '../../../language/eng/about.json';
 
 let videoElem = document.querySelector('.AboutMe .contentCol .intrest-col iframe');
-console.log("TCL: videoElem", videoElem)
 
 class AboutMe extends Component {
     

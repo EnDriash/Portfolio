@@ -23,9 +23,9 @@ backHandler(position, event) {
         let data;
 
         if(this.props.lang !== 'ENG'){
-        data = skillsDataEng;
+            data = skillsDataEng;
         } else {
-        data = skillsDataPL;
+            data = skillsDataPL;
         }
         
         return (
@@ -52,7 +52,7 @@ backHandler(position, event) {
                             <LevelContainer data={data.backend.basics}/>
                         </Frame>
                     </div>
-                    <Swipe onSwipeUp={this.backHandler}>
+                    <Swipe className="Swipe" onSwipeUp={this.backHandler}>
                         <div className="Swipe"></div>
                     </Swipe>
                 </div>

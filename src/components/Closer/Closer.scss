@@ -23,3 +23,36 @@
         }
     }
 }
+.ContactContainer{
+ .close{
+     right: inherit;
+     left: 0;
+     border-top-right-radius: 0;
+     border-bottom-left-radius: 0;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 100%;
+     svg{
+        left: 20%;
+     }
+ }
+}
+
+@media (max-width: 767px){
+    .close{
+        width: 60px;
+        height: 60px;
+    }
+    .ContactContainer{
+        .close{
+            right: 0;
+            left: inherit;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 100%;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 0;
+            svg{
+               left: 40%;
+            }
+        }
+       }
+}
