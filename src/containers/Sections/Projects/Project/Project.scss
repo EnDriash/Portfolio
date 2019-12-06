@@ -33,7 +33,7 @@
         position: relative;
         margin: 20px 40px;
         height: 30vh;
-        min-height: 20vh;
+        min-height: 200px;
         .preview{
             display: none;
         }
@@ -144,8 +144,6 @@
         .img{
             position: relative;
             margin: 10px 15px;
-            height: 30vh;
-            min-height: 20vh;
             
             .preview{
                 display: none;

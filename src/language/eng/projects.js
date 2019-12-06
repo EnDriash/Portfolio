@@ -19,7 +19,7 @@ const data = {
     portfolio: {
         header: 'Here, where you are - ',
         title: 'My Portfolio',
-        desc: <p>This portfolio has been created and designed fully by me. This innovative creation has been implemented into my Portfolio by <b>React.</b> and it has been based on game menu. This is place where you can know me better. Libraries likes <b>react-animation-on-scroll</b> for animation, <b>react-sass</b> for easiest styling components were been implemented by Node Package Manager. Deployment has been realized by <b>gh-pages</b> and form contact uses <b><a href="formspree.io">formspree.io</a> API</b>. This is why we can contact in the future!</p>,
+        desc: <p>This portfolio has been created and designed fully by me. This innovative creation has been implemented into my Portfolio by <b>React.js</b> and it has been based on game menu. This is place where you can know me better. Libraries likes <b>react-animation-on-scroll</b> for animation, <b>react-sass</b> for easiest styling components were been implemented by <b>Node Package Manager</b>. Deployment has been realized by <b>gh-pages</b> and form contact uses <b><a href="formspree.io">formspree.io</a> API</b>. This is why we can contact in the future!</p>,
         previewImg: portfolio,
         preview:{
             demo: 'https://endriash.github.io/Portfolio/',

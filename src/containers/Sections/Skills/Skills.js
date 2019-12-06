@@ -14,7 +14,7 @@ class Skills extends Component {
 backHandler(position, event) {
     const app = document.querySelector('.App');
     const skillsElem = document.querySelector('.ContentLayout .Skills');
-   
+
     skillsElem.scrollTo(0,0);
     app.classList.remove(app.classList.item(1));
 }
@@ -30,7 +30,7 @@ backHandler(position, event) {
         
         return (
             <div className="Skills">
-                <div className="specrow">
+                <div className="row">
                     <div className="left-col col-4 col-xl-4 col-md-4 col-sm-12">
                         <Frame close="false" >
                             <h1>{data.frontend.header}</h1>
@@ -52,9 +52,7 @@ backHandler(position, event) {
                             <LevelContainer data={data.backend.basics}/>
                         </Frame>
                     </div>
-                    <Swipe className="Swipe" onSwipeUp={this.backHandler}>
-                        <div className="Swipe"></div>
-                    </Swipe>
+                    <Swipe className="Swipe" onSwipeUp={this.backHandler} />
                 </div>
             </div>
         )
