@@ -10,7 +10,10 @@ function SmallProject(props) {
                     <h3>{props.data.header}</h3>
                     <p>{props.data.desc}</p>
                     <ul>
-                        <li><a href={props.data.link} >{props.data.link}</a></li>
+                        <li>
+
+                            <a href={props.data.link} >POKAŻ KOD</a>
+                        </li>
                     </ul>
                 </div>
             </Frame>

@@ -1,0 +1,55 @@
+@import '../../../../../sass/variables.scss';
+
+.SmallProject {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 2.5% 0 1%;
+    h3{
+        opacity: 0.9;
+        margin: 0;
+        border: none;
+        box-shadow: inset -1px 0px 10px black;
+        background-color: $fontcolor;
+        color: $shadowcolor;
+        text-align: center;
+        font-size: $fontlarge;
+        padding: 5px 10px;
+    }
+
+    p{
+        font-size: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    a{
+        font-size: 20px;
+        color: $contrastcolor;
+        &:hover{
+            cursor: pointer;
+        }
+        
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0 0 20px;
+       li{
+           width: center;
+           display: flex;
+           justify-content: center;
+        }
+        a{
+            font-size: 30px;
+            font-weight: 900;
+            text-decoration: none;
+        }
+       }
+
+    }
+    
+
+}
