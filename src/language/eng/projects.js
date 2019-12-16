@@ -250,16 +250,16 @@ const data = {
     }
     },
     whatElse:{
-        header: 'Co jeszcze?',
+        header: 'What Else?',
         content:{
             node:{
                 name: 'node',
-                header: 'Node.js - Ćwiczenia ',
+                header: 'Node.js - Exercises ',
                 icon: {
                     title: 'Node.js',
                     svg: icons.nodeicon
                 },
-                desc: <p><b>Node.js</b> – wieloplatformowe środowisko uruchomieniowe o otwartym kodzie do tworzenia aplikacji typu server-side napisanych w języku JavaScript.<br /><br /> Aby zapoznać się z środowiskiem Node.js i silnikiem <b>Chrome V8</b> zostało wykonane kilkanaście ćwiczeń w modułach takich jak: <b>fileSystem, operationSystem, HTTP</b>. Powstały projekty takie jak <b>ToDoList, Image Loader</b>.</p>,
+                desc: <p><b>Node.js</b>  is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. <br /><br /> Few exercises has been wrote to acquaint with Node.js environment and <b>Chrome V8 Engine</b> .<br /> Exercises refer modules like: <b>fs(filesystem), os(operationsystem), http</b>. <br />Project was made like <b>toDoList, Image Loader.</b></p>,
                 link: 'https://github.com/EnDriash/JSlearning/tree/master/Node.js'
             },
             mongo:{
@@ -269,7 +269,9 @@ const data = {
                     title: 'MongoDB',
                     svg: icons.mongodbicon
                 },
-                desc: <p><b>MongoDB</b> – otwarty, nierelacyjny system zarządzania bazą danych napisany w języku C++. Charakteryzuje się dużą skalowalnością, wydajnością oraz brakiem ściśle zdefiniowanej struktury obsługiwanych baz danych. <br /><br />Celem tej aplikacji było przećwiczenie pracy z nierelacyjną bazą danych za pomocą 4 głównych funkcjonalności <b>Create, React, Update, Delete</b> w skórcie <b>CURD</b>. Dzięki temu powstała aplikacja do organizacji zadań tak zwana <b>ToDo List</b>. Komunikacja odbywa się za pomocą konsoli w środowisku <b>Node.js</b></p>,
+                desc: <p><b>MongoDB</b>  is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. 
+                Purpose of this application has been practiced work with not relational database in <b>CRUD </b>methodology. Has been made <b>ToDo List </b>application which allows organization of daily tasks. Comunication with App is possible by console in <b>Node.js</b> environment.</p>,
+                
                 link: 'https://github.com/EnDriash/JSlearning/tree/master/MongoDB'
             },
             express:{
@@ -279,7 +281,9 @@ const data = {
                     title: 'Express.js',
                     svg: icons.expressicon
                 },
-                desc: <p>Express.js to minimalistyczny oraz elastyczny framework Node.js, która zapewnia solidny zestaw funkcji dla pracy z aplikacjami internetowymi i mobilnymi.<br /><br /> Celem tej aplikacji było przećwiczenie komunikacji między widokiem a kontrolerem oraz zapoznanie się z metodami serwowanymi przez framework.</p>,
+                desc: <p><b>Express.js</b>, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js. <br /><br /> 
+                Purpose of this application was acquaintance with functions and methods share by Framework. </p>
+                ,
                 link: 'https://github.com/EnDriash/JSlearning/tree/master/Express.js/Quiz'
             },
             rnative:{
@@ -289,7 +293,7 @@ const data = {
                     title: 'React Native',
                     svg: icons.reacticon
                 },
-                desc: <p><b>React Native</b> to framework który umożliwia budowanie interfejsów użytkownika dla urządzeń mobilnych za pomocą React.js.<br /><br /> Aplikacja powstała z myślą o pobieraniu z udostępnionego API <a href="https://xkcd.com">xkcd.com</a> najnowszych zabawnych komiksów. W kodzie można zobaczyć nową składnią <b>React Hooks</b>, elementy natywne udostępnione dzięki React Native oraz użycie biblioteki <b>react-navigation</b> do serwowania widoków dla klienta.</p>,
+                desc: <p><b>React Native </b> is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. .<br /><br />  Application has been created to fetching newest funny comics shared by <a href="https://xkcd.com">xkcd.com</a> API. To create this app was used new syntax <b>React Hooks</b>, <b>native elements</b> shared by React Native, <b>react-navigation</b> module to serve view for client. .</p>,
                 link: 'hhttps://github.com/EnDriash/xkcd-App---First-React-Native-App'
             },
             grouptask:{
@@ -299,7 +303,7 @@ const data = {
                     title: 'Jira',
                     svg: icons.jiraicon
                 },
-                desc: <p>Udział w projekcie zespołowym. Zrealizowanie sklepu internetowego meblowego. Byłem odpowiedzialny za stworzenie sekcji Nowe meble. Sekcja miała mieć zaimplementowane takie funkcjonalności jak przełączanie miedzy kategoriami, filtrowanie listy produktów pobranych jako obiekty, wyświetlanie sekcji jako karuzeli scalowalnej  szerokosci urzadzenia. Całość została napisana w vanillia.js oraz przy pomocy zaimplementowanego modułu <b>mustache.js</b> aby uzyskać dynamiczne dodawanie komponentów. Pliki za które byłem odpowiedzialny to: <br /><br /><b>- newFurniture.js <br />-product_data.js <br />-post_data.js <br />-templateGenerator.js <br />-swiper.js (kod zapożyczony i zaimplementowany do karuzeli)</b> <br /><br /> W projekcie brało udział 4 Junior Developerów, 1 Senior Developer, 1 Project Menager. Całość była nadzorowana za pomocą metodyki <b>Kanban w Jira oraz Github</b>. Projekt miał symulować prace zespołu developerskiego: obowiązkowe <b>code review, pull requests, rebase itd</b>.</p> ,
+                desc: <p>This section refer take part in a group project. During it has been created the furniture shop web page. I had responsibility for created New Furniture section. It should had implemented functionality like: filter of load data, section should be scalable carousel to width device, switching between categories. All has been wrote in vanilla.js and by <b>mustache.js</b> module in that has been possible to create forms for each furniture data and serve it automation.  Files which I created: <br /><br /><b>- newFurniture.js <br />-product_data.js <br />-post_data.js <br />-templateGenerator.js <br />-swiper.js </b> <br /><br /> Project members consisted : 4 Junior Developers, 1 Senior Developer, 1 Project Manager. Project has been supervision by Kanban methodology in Jira and Github. Project was simulation of daily developer work. During the project we applied Code Reviews, pull requests, managing of respository in github.</p> ,
                 link: 'https://github.com/EnDriash/wdp-1907-05/tree/master/src/scripts'
             },
             codingbat:{
@@ -309,7 +313,7 @@ const data = {
                     title: 'Java',
                     svg: icons.javaicon
                 },
-                desc: <p>Rozwiązanie ponad 200 logiczynych zagadek w języku Java ze strony <a href="https://codingbat.com">codingbat.com</a>.<br /> Wybranie języka Java na samym początku nauki programowania umożliwiło zrozumienie wielu konceptów w językach jeszcze wyższego poziomu. Przykładem może być TypeScript w JS lub OOP. </p>,
+                desc: <p>Below we can see solved more than 200 logic problems in Java programming language from <a href="https://codingbat.com">codingbat.com</a>.<br /> page. <br /> I’ve choosen Java for my first programming language therefore I get more easiest feeling to learn new thinks and concepts in JavaScript. For example TypeScript or OOP. </p>,
                 link: 'https://github.com/EnDriash/CodingBat/tree/master/CodingBat%20-%20Java%20Practice'
             },
         }
