@@ -4,7 +4,6 @@ import Frame from '../../../../Layout/Frame/Frame';
 import Icon from '../../../../../components/Icon/Icon';
 
 function SmallProject(props) {
-    console.log(props.data.icon.svg)
     return(
         <div className="SmallProject">
             <Frame close="false">
@@ -13,11 +12,10 @@ function SmallProject(props) {
                         <Icon svg={props.data.icon.svg} />
                         <h3>{props.data.header}</h3>
                     </div>
-                    
                     {props.data.desc}
                     <ul>
                         <li>
-                            <a href={props.data.link}>POKAŻ KOD</a>
+                            <a href={props.data.link}>{props.codelink}</a>
                         </li>
                     </ul>
                 </div>

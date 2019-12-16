@@ -251,6 +251,7 @@ const data = {
     },
     whatElse:{
         header: 'Co jeszcze?',
+        showcode: 'POKAŻ KOD',
         content:{
             node:{
                 name: 'node',

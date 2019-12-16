@@ -251,6 +251,7 @@ const data = {
     },
     whatElse:{
         header: 'What Else?',
+        showcode: 'SHOW CODE',
         content:{
             node:{
                 name: 'node',
