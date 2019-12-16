@@ -17,6 +17,7 @@ function Project(props) {
 
                 <div className="row">
                     <div className="col-4 col-xl-4 col-md-4 col-sm-12">
+
                         <div className="img">
                             <div className="preview">
                                 <a href={props.data.preview.demo} target="_blank" rel="noopener">
@@ -31,6 +32,7 @@ function Project(props) {
                             </a>
                         </div>
                     </div>
+                    
                     <div className="content-col col-8 col-xl-8 col-md-8 col-sm-12">
                         
                         <div className="about">

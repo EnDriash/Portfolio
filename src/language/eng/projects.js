@@ -250,25 +250,67 @@ const data = {
     }
     },
     whatElse:{
-        header: 'What Else?',
+        header: 'Co jeszcze?',
         content:{
             node:{
                 name: 'node',
-                header: 'Node.js',
-                desc: '',
-                link: ''
+                header: 'Node.js - Ćwiczenia ',
+                icon: {
+                    title: 'Node.js',
+                    svg: icons.nodeicon
+                },
+                desc: <p><b>Node.js</b> – wieloplatformowe środowisko uruchomieniowe o otwartym kodzie do tworzenia aplikacji typu server-side napisanych w języku JavaScript.<br /><br /> Aby zapoznać się z środowiskiem Node.js i silnikiem <b>Chrome V8</b> zostało wykonane kilkanaście ćwiczeń w modułach takich jak: <b>fileSystem, operationSystem, HTTP</b>. Powstały projekty takie jak <b>ToDoList, Image Loader</b>.</p>,
+                link: 'https://github.com/EnDriash/JSlearning/tree/master/Node.js'
             },
             mongo:{
                 name: 'mongo',
-                header: 'MongoDB',
-                desc: '',
-                link: ''
+                header: 'MongoDB - ToDo List',
+                icon: {
+                    title: 'MongoDB',
+                    svg: icons.mongodbicon
+                },
+                desc: <p><b>MongoDB</b> – otwarty, nierelacyjny system zarządzania bazą danych napisany w języku C++. Charakteryzuje się dużą skalowalnością, wydajnością oraz brakiem ściśle zdefiniowanej struktury obsługiwanych baz danych. <br /><br />Celem tej aplikacji było przećwiczenie pracy z nierelacyjną bazą danych za pomocą 4 głównych funkcjonalności <b>Create, React, Update, Delete</b> w skórcie <b>CURD</b>. Dzięki temu powstała aplikacja do organizacji zadań tak zwana <b>ToDo List</b>. Komunikacja odbywa się za pomocą konsoli w środowisku <b>Node.js</b></p>,
+                link: 'https://github.com/EnDriash/JSlearning/tree/master/MongoDB'
             },
             express:{
                 name: 'express',
-                header: 'Express.js',
-                desc: 'Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.',
-                link: ''
+                header: 'Express.js - Quiz App ',
+                icon: {
+                    title: 'Express.js',
+                    svg: icons.expressicon
+                },
+                desc: <p>Express.js to minimalistyczny oraz elastyczny framework Node.js, która zapewnia solidny zestaw funkcji dla pracy z aplikacjami internetowymi i mobilnymi.<br /><br /> Celem tej aplikacji było przećwiczenie komunikacji między widokiem a kontrolerem oraz zapoznanie się z metodami serwowanymi przez framework.</p>,
+                link: 'https://github.com/EnDriash/JSlearning/tree/master/Express.js/Quiz'
+            },
+            rnative:{
+                name: 'reactNative',
+                header: 'React Native - Comics Api ',
+                icon: {
+                    title: 'React Native',
+                    svg: icons.reacticon
+                },
+                desc: <p><b>React Native</b> to framework który umożliwia budowanie interfejsów użytkownika dla urządzeń mobilnych za pomocą React.js.<br /><br /> Aplikacja powstała z myślą o pobieraniu z udostępnionego API <a href="https://xkcd.com">xkcd.com</a> najnowszych zabawnych komiksów. W kodzie można zobaczyć nową składnią <b>React Hooks</b>, elementy natywne udostępnione dzięki React Native oraz użycie biblioteki <b>react-navigation</b> do serwowania widoków dla klienta.</p>,
+                link: 'hhttps://github.com/EnDriash/xkcd-App---First-React-Native-App'
+            },
+            grouptask:{
+                name: 'grouptask',
+                header: 'Furniture Shop - Group Task ',
+                icon: {
+                    title: 'Jira',
+                    svg: icons.jiraicon
+                },
+                desc: <p>Udział w projekcie zespołowym. Zrealizowanie sklepu internetowego meblowego. Byłem odpowiedzialny za stworzenie sekcji Nowe meble. Sekcja miała mieć zaimplementowane takie funkcjonalności jak przełączanie miedzy kategoriami, filtrowanie listy produktów pobranych jako obiekty, wyświetlanie sekcji jako karuzeli scalowalnej  szerokosci urzadzenia. Całość została napisana w vanillia.js oraz przy pomocy zaimplementowanego modułu <b>mustache.js</b> aby uzyskać dynamiczne dodawanie komponentów. Pliki za które byłem odpowiedzialny to: <br /><br /><b>- newFurniture.js <br />-product_data.js <br />-post_data.js <br />-templateGenerator.js <br />-swiper.js (kod zapożyczony i zaimplementowany do karuzeli)</b> <br /><br /> W projekcie brało udział 4 Junior Developerów, 1 Senior Developer, 1 Project Menager. Całość była nadzorowana za pomocą metodyki <b>Kanban w Jira oraz Github</b>. Projekt miał symulować prace zespołu developerskiego: obowiązkowe <b>code review, pull requests, rebase itd</b>.</p> ,
+                link: 'https://github.com/EnDriash/wdp-1907-05/tree/master/src/scripts'
+            },
+            codingbat:{
+                name: 'codingbat',
+                header: 'Logic Tasks - CodingBat ',
+                icon: {
+                    title: 'Java',
+                    svg: icons.javaicon
+                },
+                desc: <p>Rozwiązanie ponad 200 logiczynych zagadek w języku Java ze strony <a href="https://codingbat.com">codingbat.com</a>.<br /> Wybranie języka Java na samym początku nauki programowania umożliwiło zrozumienie wielu konceptów w językach jeszcze wyższego poziomu. Przykładem może być TypeScript w JS lub OOP. </p>,
+                link: 'https://github.com/EnDriash/CodingBat/tree/master/CodingBat%20-%20Java%20Practice'
             },
         }
     }
